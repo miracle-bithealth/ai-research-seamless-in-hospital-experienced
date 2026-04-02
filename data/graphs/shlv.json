@@ -1,0 +1,6705 @@
+{
+  "_id": "shlv",
+  "building_name": "Siloam Hospitals Lippo Village",
+  "version": 1,
+  "floors": [
+    1,
+    2,
+    5
+  ],
+  "nodes": [
+    {
+      "id": "f1_j1",
+      "type": "junction",
+      "floor": 1,
+      "cx": 659,
+      "cy": 403,
+      "connection": [
+        "f1_j2",
+        "f1_j30",
+        "2243e42a-80f3-4315-a7b8-c71d42c2271a"
+      ]
+    },
+    {
+      "id": "f1_j2",
+      "type": "junction",
+      "floor": 1,
+      "cx": 640,
+      "cy": 406,
+      "connection": [
+        "f1_j1",
+        "f1_j3"
+      ]
+    },
+    {
+      "id": "f1_j3",
+      "type": "junction",
+      "floor": 1,
+      "cx": 612,
+      "cy": 407,
+      "connection": [
+        "f1_j2",
+        "f1_j4",
+        "8d907128-1649-4645-906a-016ea129f541"
+      ]
+    },
+    {
+      "id": "f1_j4",
+      "type": "junction",
+      "floor": 1,
+      "cx": 583,
+      "cy": 407,
+      "connection": [
+        "f1_j3",
+        "f1_j5",
+        "f1_j8"
+      ]
+    },
+    {
+      "id": "f1_j5",
+      "type": "junction",
+      "floor": 1,
+      "cx": 582,
+      "cy": 434,
+      "connection": [
+        "f1_j4",
+        "f1_j6"
+      ]
+    },
+    {
+      "id": "f1_j6",
+      "type": "junction",
+      "floor": 1,
+      "cx": 581,
+      "cy": 461,
+      "connection": [
+        "f1_j5",
+        "f1_j7"
+      ]
+    },
+    {
+      "id": "f1_j7",
+      "type": "junction",
+      "floor": 1,
+      "cx": 583,
+      "cy": 488,
+      "connection": [
+        "f1_j6",
+        "f1_j20",
+        "f1_j27",
+        "d556b9c0-d3d4-44f9-aeae-03e200455812"
+      ]
+    },
+    {
+      "id": "f1_j8",
+      "type": "junction",
+      "floor": 1,
+      "cx": 583,
+      "cy": 380,
+      "connection": [
+        "f1_j4",
+        "f1_j9",
+        "f1_j19"
+      ]
+    },
+    {
+      "id": "f1_j9",
+      "type": "junction",
+      "floor": 1,
+      "cx": 585,
+      "cy": 354,
+      "connection": [
+        "f1_j8",
+        "f1_j10",
+        "f12a668f-953d-4184-af79-de0b768d2ecd"
+      ]
+    },
+    {
+      "id": "f1_j10",
+      "type": "junction",
+      "floor": 1,
+      "cx": 585,
+      "cy": 319,
+      "connection": [
+        "f1_j9",
+        "f1_j11",
+        "664b7368-567a-4344-b19d-e6d8a695686a"
+      ]
+    },
+    {
+      "id": "f1_j11",
+      "type": "junction",
+      "floor": 1,
+      "cx": 585,
+      "cy": 278,
+      "connection": [
+        "f1_j10",
+        "f1_j12"
+      ]
+    },
+    {
+      "id": "f1_j12",
+      "type": "junction",
+      "floor": 1,
+      "cx": 585,
+      "cy": 245,
+      "connection": [
+        "f1_j11",
+        "f1_j13"
+      ]
+    },
+    {
+      "id": "f1_j13",
+      "type": "junction",
+      "floor": 1,
+      "cx": 586,
+      "cy": 213,
+      "connection": [
+        "f1_j12",
+        "f1_j14"
+      ]
+    },
+    {
+      "id": "f1_j14",
+      "type": "junction",
+      "floor": 1,
+      "cx": 586,
+      "cy": 181,
+      "connection": [
+        "f1_j13",
+        "f1_j15"
+      ]
+    },
+    {
+      "id": "f1_j15",
+      "type": "junction",
+      "floor": 1,
+      "cx": 641,
+      "cy": 181,
+      "connection": [
+        "f1_j14",
+        "f1_j16"
+      ]
+    },
+    {
+      "id": "f1_j16",
+      "type": "junction",
+      "floor": 1,
+      "cx": 642,
+      "cy": 122,
+      "connection": [
+        "f1_j15",
+        "f1_j17",
+        "cd35bd2a-d2e9-4924-a5ff-5a75aaa03ed9"
+      ]
+    },
+    {
+      "id": "f1_j17",
+      "type": "junction",
+      "floor": 1,
+      "cx": 642,
+      "cy": 92,
+      "connection": [
+        "f1_j16",
+        "b3b2bc2e-ead9-4f76-9134-9b14ecee7f0e"
+      ]
+    },
+    {
+      "id": "f12a668f-953d-4184-af79-de0b768d2ecd",
+      "type": "room",
+      "floor": 1,
+      "cx": 639,
+      "cy": 355,
+      "connection": [
+        "f1_j9"
+      ],
+      "slug": "lt1-pharmacy-farmasi",
+      "objectName": "Pharmacy / Farmasi",
+      "label": "Fasilitas pelayanan farmasi klinis rumah sakit untuk penyerahan, peracikan, dan pengambilan obat atau tebus resep dokter bagi pasien.",
+      "categoryId": "PHARMACY",
+      "wings": "",
+      "aliases": [
+        "apotek",
+        "farmasi",
+        "tebus resep",
+        "beli obat",
+        "ambil obat",
+        "apotik"
+      ],
+      "keywords": [
+        "obat",
+        "resep dokter",
+        "apoteker",
+        "beli obat",
+        "nebus obat",
+        "obat jalan",
+        "obat inap",
+        "kasir obat",
+        "apotek rumah sakit",
+        "farmasi klinis"
+      ]
+    },
+    {
+      "id": "f1_j19",
+      "type": "junction",
+      "floor": 1,
+      "cx": 551,
+      "cy": 382,
+      "connection": [
+        "f1_j8",
+        "ab30ca6a-8a9d-440c-bc7b-cab622a7da35"
+      ]
+    },
+    {
+      "id": "f1_j20",
+      "type": "junction",
+      "floor": 1,
+      "cx": 627,
+      "cy": 488,
+      "connection": [
+        "f1_j7",
+        "f1_j21",
+        "f1_j63"
+      ]
+    },
+    {
+      "id": "f1_j21",
+      "type": "junction",
+      "floor": 1,
+      "cx": 670,
+      "cy": 489,
+      "connection": [
+        "f1_j20",
+        "f1_j22"
+      ]
+    },
+    {
+      "id": "f1_j22",
+      "type": "junction",
+      "floor": 1,
+      "cx": 714,
+      "cy": 489,
+      "connection": [
+        "f1_j21",
+        "f1_j23"
+      ]
+    },
+    {
+      "id": "f1_j23",
+      "type": "junction",
+      "floor": 1,
+      "cx": 758,
+      "cy": 490,
+      "connection": [
+        "f1_j22",
+        "f1_j24"
+      ]
+    },
+    {
+      "id": "f1_j24",
+      "type": "junction",
+      "floor": 1,
+      "cx": 802,
+      "cy": 490,
+      "connection": [
+        "f1_j23",
+        "f1_j25"
+      ]
+    },
+    {
+      "id": "f1_j25",
+      "type": "junction",
+      "floor": 1,
+      "cx": 832,
+      "cy": 491,
+      "connection": [
+        "f1_j24",
+        "f1_j26",
+        "f1_j70"
+      ]
+    },
+    {
+      "id": "f1_j26",
+      "type": "junction",
+      "floor": 1,
+      "cx": 889,
+      "cy": 491,
+      "connection": [
+        "f1_j25",
+        "f1_v68",
+        "85629f24-5acd-4d4c-b595-80c722e19f65"
+      ]
+    },
+    {
+      "id": "f1_j27",
+      "type": "junction",
+      "floor": 1,
+      "cx": 517,
+      "cy": 488,
+      "connection": [
+        "f1_j7",
+        "f1_j28"
+      ]
+    },
+    {
+      "id": "f1_j28",
+      "type": "junction",
+      "floor": 1,
+      "cx": 450,
+      "cy": 489,
+      "connection": [
+        "f1_j27",
+        "f1_j29"
+      ]
+    },
+    {
+      "id": "f1_j29",
+      "type": "junction",
+      "floor": 1,
+      "cx": 384,
+      "cy": 489,
+      "connection": [
+        "f1_j28"
+      ]
+    },
+    {
+      "id": "f1_j30",
+      "type": "junction",
+      "floor": 1,
+      "cx": 662,
+      "cy": 382,
+      "connection": [
+        "f1_j1",
+        "f1_j31"
+      ]
+    },
+    {
+      "id": "f1_j31",
+      "type": "junction",
+      "floor": 1,
+      "cx": 752,
+      "cy": 379,
+      "connection": [
+        "f1_j30",
+        "f1_j32"
+      ]
+    },
+    {
+      "id": "f1_j32",
+      "type": "junction",
+      "floor": 1,
+      "cx": 834,
+      "cy": 376,
+      "connection": [
+        "f1_j31",
+        "f1_j33",
+        "f1_j55"
+      ]
+    },
+    {
+      "id": "f1_j33",
+      "type": "junction",
+      "floor": 1,
+      "cx": 833,
+      "cy": 325,
+      "connection": [
+        "f1_j32",
+        "f1_j34",
+        "28242de1-7c31-4a00-bb68-b8ac50edd368",
+        "93e0a9e3-f08c-4b8b-983c-49e637060b7c",
+        "d9598562-c36c-4d70-81fc-48de72ef84fc"
+      ]
+    },
+    {
+      "id": "f1_j34",
+      "type": "junction",
+      "floor": 1,
+      "cx": 832,
+      "cy": 271,
+      "connection": [
+        "f1_j33",
+        "f1_j35",
+        "f1_j44"
+      ]
+    },
+    {
+      "id": "f1_j35",
+      "type": "junction",
+      "floor": 1,
+      "cx": 805,
+      "cy": 269,
+      "connection": [
+        "f1_j34",
+        "8f95207c-3db0-4eb5-99c5-43299048037e"
+      ]
+    },
+    {
+      "id": "8f95207c-3db0-4eb5-99c5-43299048037e",
+      "type": "room",
+      "floor": 1,
+      "cx": 805,
+      "cy": 238,
+      "connection": [
+        "f1_j35",
+        "f1_j37",
+        "ad84fef8-2007-4ed3-b539-e1ebb572b9ac",
+        "97304386-3d5a-455c-acc1-0446e32c8fec"
+      ],
+      "slug": "lt1-therapy-ward",
+      "objectName": "Therapy Ward",
+      "label": "Bangsal atau ruang perawatan khusus yang dilengkapi tempat tidur untuk observasi dan pemulihan pasien yang sedang menjalani program terapi medis.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "bangsal terapi",
+        "ruang terapi",
+        "rawat terapi",
+        "ward terapi",
+        "kamar terapi"
+      ],
+      "keywords": [
+        "rawat inap terapi",
+        "pemulihan",
+        "bangsal perawatan",
+        "observasi terapi",
+        "rehabilitasi",
+        "ranjang terapi",
+        "kamar pasien",
+        "bed ward"
+      ]
+    },
+    {
+      "id": "f1_j37",
+      "type": "junction",
+      "floor": 1,
+      "cx": 805,
+      "cy": 193,
+      "connection": [
+        "8f95207c-3db0-4eb5-99c5-43299048037e",
+        "f1_j38"
+      ]
+    },
+    {
+      "id": "f1_j38",
+      "type": "junction",
+      "floor": 1,
+      "cx": 806,
+      "cy": 123,
+      "connection": [
+        "f1_j37",
+        "f1_j39"
+      ]
+    },
+    {
+      "id": "f1_j39",
+      "type": "junction",
+      "floor": 1,
+      "cx": 814,
+      "cy": 80,
+      "connection": [
+        "f1_j38",
+        "e93d6e5f-7bbd-4470-87d3-2dd6e907f956"
+      ]
+    },
+    {
+      "id": "e93d6e5f-7bbd-4470-87d3-2dd6e907f956",
+      "type": "room",
+      "floor": 1,
+      "cx": 849,
+      "cy": 81,
+      "connection": [
+        "f1_j39",
+        "f1_j41",
+        "c27ba4a3-ddc5-4f27-8238-f510077e0e18",
+        "808b2ea6-5153-4a6d-ab98-d81bffde0b0b",
+        "652c12af-6340-44fd-a476-07e0ed83796d",
+        "f6c68b4b-0e3a-426c-8673-bbf02083a140"
+      ],
+      "slug": "lt1-medical-rehab",
+      "objectName": "Medical Rehab",
+      "label": "Pusat fasilitas pelayanan rehabilitasi medis terpadu dan fisioterapi untuk membantu pemulihan fungsi fisik dan motorik pasien pasca cedera atau operasi.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "rehab medik",
+        "rehabilitasi medis",
+        "fisioterapi",
+        "terapi fisik",
+        "ruang rehab"
+      ],
+      "keywords": [
+        "rehabilitasi medik",
+        "pemulihan fisik",
+        "cedera",
+        "pasca operasi",
+        "stroke",
+        "latihan fisik",
+        "dokter rehab",
+        "klinik fisioterapi"
+      ]
+    },
+    {
+      "id": "f1_j41",
+      "type": "junction",
+      "floor": 1,
+      "cx": 849,
+      "cy": 129,
+      "connection": [
+        "e93d6e5f-7bbd-4470-87d3-2dd6e907f956",
+        "f1_j42"
+      ]
+    },
+    {
+      "id": "f1_j42",
+      "type": "junction",
+      "floor": 1,
+      "cx": 852,
+      "cy": 177,
+      "connection": [
+        "f1_j41",
+        "f1_j43"
+      ]
+    },
+    {
+      "id": "f1_j43",
+      "type": "junction",
+      "floor": 1,
+      "cx": 854,
+      "cy": 224,
+      "connection": [
+        "f1_j42",
+        "f1_j44"
+      ]
+    },
+    {
+      "id": "f1_j44",
+      "type": "junction",
+      "floor": 1,
+      "cx": 854,
+      "cy": 268,
+      "connection": [
+        "f1_j43",
+        "f1_j34",
+        "f1_j50"
+      ]
+    },
+    {
+      "id": "c27ba4a3-ddc5-4f27-8238-f510077e0e18",
+      "type": "room",
+      "floor": 1,
+      "cx": 885,
+      "cy": 99,
+      "connection": [
+        "e93d6e5f-7bbd-4470-87d3-2dd6e907f956"
+      ],
+      "slug": "lt1-terrace",
+      "objectName": "Terrace",
+      "label": "Teras atau area terbuka di luar ruangan yang difungsikan sebagai ruang santai, tempat menunggu, atau area istirahat bagi pengunjung dan keluarga pasien.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "teras",
+        "area terbuka",
+        "luar ruangan",
+        "balkon",
+        "outdoor",
+        "tempat santai"
+      ],
+      "keywords": [
+        "tempat tunggu luar",
+        "smoking area",
+        "udara segar",
+        "tempat duduk outdoor",
+        "istirahat",
+        "angin"
+      ]
+    },
+    {
+      "id": "808b2ea6-5153-4a6d-ab98-d81bffde0b0b",
+      "type": "room",
+      "floor": 1,
+      "cx": 848,
+      "cy": 60,
+      "connection": [
+        "e93d6e5f-7bbd-4470-87d3-2dd6e907f956"
+      ],
+      "slug": "lt1-terrace-2",
+      "objectName": "Terrace",
+      "label": "Teras kedua atau area terbuka luar ruangan tambahan untuk memfasilitasi tempat bersantai dan ruang tunggu ekstra bagi pengunjung.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "teras",
+        "area terbuka",
+        "luar ruangan",
+        "balkon",
+        "outdoor",
+        "tempat santai"
+      ],
+      "keywords": [
+        "tempat tunggu luar",
+        "smoking area",
+        "udara segar",
+        "tempat duduk outdoor",
+        "istirahat",
+        "angin",
+        "teras dua"
+      ]
+    },
+    {
+      "id": "652c12af-6340-44fd-a476-07e0ed83796d",
+      "type": "room",
+      "floor": 1,
+      "cx": 830,
+      "cy": 94,
+      "connection": [
+        "e93d6e5f-7bbd-4470-87d3-2dd6e907f956"
+      ],
+      "slug": "lt1-admission-medical-rehab",
+      "objectName": "Admission Medical Rehab",
+      "label": "Meja layanan administrasi dan admission khusus untuk pendaftaran, penjadwalan, dan pendataan pasien yang akan menjalani sesi rehabilitasi medis atau fisioterapi.",
+      "categoryId": "ADMIN",
+      "wings": "",
+      "aliases": [
+        "pendaftaran rehab",
+        "daftar fisioterapi",
+        "registrasi rehab",
+        "loket rehab medik",
+        "daftar medik",
+        "admin rehab"
+      ],
+      "keywords": [
+        "pendaftaran pasien rehab",
+        "loket administrasi",
+        "pendaftaran bpjs rehab",
+        "registrasi ulang fisioterapi",
+        "jadwal terapi",
+        "kasir rehab"
+      ]
+    },
+    {
+      "id": "ad84fef8-2007-4ed3-b539-e1ebb572b9ac",
+      "type": "room",
+      "floor": 1,
+      "cx": 782,
+      "cy": 236,
+      "connection": [
+        "8f95207c-3db0-4eb5-99c5-43299048037e"
+      ],
+      "slug": "lt1-vitalstim-therapy",
+      "objectName": "Vitalstim Therapy",
+      "label": "Ruang tindakan medis spesifik untuk terapi VitalStim, menggunakan stimulasi listrik neuromuskular guna mengobati pasien dengan gangguan menelan dan memperkuat otot.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "terapi vitalstim",
+        "terapi otot",
+        "stimulasi otot",
+        "vitalstim",
+        "fisioterapi otot",
+        "terapi menelan"
+      ],
+      "keywords": [
+        "disfagia",
+        "susah menelan",
+        "stimulasi elektrik",
+        "terapi saraf",
+        "gangguan menelan",
+        "alat vitalstim",
+        "terapi otot leher"
+      ]
+    },
+    {
+      "id": "97304386-3d5a-455c-acc1-0446e32c8fec",
+      "type": "room",
+      "floor": 1,
+      "cx": 783,
+      "cy": 255,
+      "connection": [
+        "8f95207c-3db0-4eb5-99c5-43299048037e"
+      ],
+      "slug": "lt1-vip-therapy",
+      "objectName": "VIP Therapy",
+      "label": "Ruang layanan terapi fisik dan rehabilitasi eksklusif yang menawarkan privasi dan kenyamanan lebih bagi pasien VIP yang membutuhkan perawatan intensif pribadi.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "terapi vip",
+        "ruang terapi vip",
+        "fisioterapi vip",
+        "rehab vip",
+        "terapi eksklusif",
+        "klinik vip"
+      ],
+      "keywords": [
+        "layanan prioritas",
+        "terapi privat",
+        "rehabilitasi eksklusif",
+        "ruang terapi pribadi",
+        "fisioterapi khusus",
+        "layanan vip"
+      ]
+    },
+    {
+      "id": "f1_j50",
+      "type": "junction",
+      "floor": 1,
+      "cx": 887,
+      "cy": 269,
+      "connection": [
+        "f1_j44",
+        "49deb241-de3d-425e-bd6d-7fa4db067b28"
+      ]
+    },
+    {
+      "id": "49deb241-de3d-425e-bd6d-7fa4db067b28",
+      "type": "room",
+      "floor": 1,
+      "cx": 889,
+      "cy": 302,
+      "connection": [
+        "f1_j50"
+      ],
+      "slug": "lt1-sensory-integration",
+      "objectName": "Sensory Integration",
+      "label": "Ruang terapi integrasi sensori yang dirancang khusus dengan alat stimulasi untuk mendukung perkembangan motorik dan sensorik anak berkebutuhan khusus.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "integrasi sensori",
+        "terapi sensori",
+        "terapi anak",
+        "sensorik",
+        "motorik anak",
+        "ruang sensori"
+      ],
+      "keywords": [
+        "autisme",
+        "adhd",
+        "tumbuh kembang anak",
+        "terapi bermain",
+        "motorik halus",
+        "motorik kasar",
+        "stimulasi sensorik",
+        "klinik anak"
+      ]
+    },
+    {
+      "id": "28242de1-7c31-4a00-bb68-b8ac50edd368",
+      "type": "room",
+      "floor": 1,
+      "cx": 858,
+      "cy": 293,
+      "connection": [
+        "f1_j33"
+      ],
+      "slug": "lt1-occupasional-therapy",
+      "objectName": "Occupasional Therapy",
+      "label": "Ruang tindakan untuk layanan terapi okupasi yang berfokus pada pemulihan kemampuan pasien agar dapat kembali melakukan aktivitas sehari-hari secara mandiri.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "terapi okupasi",
+        "okupasi",
+        "latihan motorik",
+        "occupational",
+        "occupational therapy",
+        "klinik okupasi"
+      ],
+      "keywords": [
+        "kemandirian pasien",
+        "aktivitas sehari-hari",
+        "rehabilitasi kerja",
+        "latihan tangan",
+        "pemulihan fungsi kognitif"
+      ]
+    },
+    {
+      "id": "93e0a9e3-f08c-4b8b-983c-49e637060b7c",
+      "type": "room",
+      "floor": 1,
+      "cx": 859,
+      "cy": 314,
+      "connection": [
+        "f1_j33"
+      ],
+      "slug": "lt1-speech-occupasional-therapy",
+      "objectName": "Speech / Occupasional Therapy",
+      "label": "Ruang layanan terpadu yang menggabungkan fasilitas untuk terapi wicara dan terapi okupasi bagi pasien yang membutuhkan intervensi ganda.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "terapi wicara",
+        "terapi okupasi",
+        "bicara",
+        "motorik",
+        "speech",
+        "occupational",
+        "poli wicara",
+        "poli okupasi"
+      ],
+      "keywords": [
+        "gabungan terapi",
+        "kelancaran bicara",
+        "kemandirian anak",
+        "stroke recovery",
+        "terapi kognitif",
+        "motorik dan wicara"
+      ]
+    },
+    {
+      "id": "d9598562-c36c-4d70-81fc-48de72ef84fc",
+      "type": "room",
+      "floor": 1,
+      "cx": 859,
+      "cy": 338,
+      "connection": [
+        "f1_j33"
+      ],
+      "slug": "lt1-speech-therapy",
+      "objectName": "Speech Therapy",
+      "label": "Ruang khusus tindakan medis untuk terapi wicara, membantu pasien dalam mengatasi gangguan komunikasi, artikulasi, bahasa, dan kesulitan berbicara.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "terapi wicara",
+        "latihan bicara",
+        "poli wicara",
+        "speech clinic",
+        "terapi ngomong",
+        "klinik wicara"
+      ],
+      "keywords": [
+        "telat bicara",
+        "speech delay",
+        "gagap",
+        "pasca stroke",
+        "gangguan komunikasi",
+        "artikulasi",
+        "afasia"
+      ]
+    },
+    {
+      "id": "f1_j55",
+      "type": "junction",
+      "floor": 1,
+      "cx": 864,
+      "cy": 356,
+      "connection": [
+        "f1_j32",
+        "8e5074d8-b0e3-4aa8-8a03-16a11c87e74e",
+        "8cb2ecde-3b17-4b2d-8627-17f54e028103"
+      ]
+    },
+    {
+      "id": "8e5074d8-b0e3-4aa8-8a03-16a11c87e74e",
+      "type": "room",
+      "floor": 1,
+      "cx": 890,
+      "cy": 358,
+      "connection": [
+        "f1_j55"
+      ],
+      "slug": "lt1-nebulizer-room",
+      "objectName": "Nebulizer Room",
+      "label": "Ruang perawatan yang menyediakan terapi inhalasi atau uap (Nebulizer) untuk pasien yang mengalami gangguan pernapasan seperti asma atau penumpukan lendir.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ruang uap",
+        "nebulizer",
+        "terapi uap",
+        "asma",
+        "sesak napas",
+        "inhalasi",
+        "poli uap"
+      ],
+      "keywords": [
+        "uap asma",
+        "batuk pilek",
+        "gangguan pernafasan",
+        "inhaler",
+        "lendir",
+        "dahak",
+        "paru-paru",
+        "pernapasan anak"
+      ]
+    },
+    {
+      "id": "8cb2ecde-3b17-4b2d-8627-17f54e028103",
+      "type": "room",
+      "floor": 1,
+      "cx": 864,
+      "cy": 380,
+      "connection": [
+        "f1_j55"
+      ],
+      "slug": "lt1-op",
+      "objectName": "OP",
+      "label": "Ruang tindakan Outpatient (OP) yang difungsikan untuk melakukan prosedur operasi kecil atau tindakan medis ringan tanpa rawat inap.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "op",
+        "operasi kecil",
+        "outpatient",
+        "rawat jalan",
+        "tindakan op",
+        "ruang tindakan"
+      ],
+      "keywords": [
+        "bedah minor",
+        "operasi ringan",
+        "poli bedah jalan",
+        "jahit luka",
+        "cabut kuku",
+        "tindakan medis ringan"
+      ]
+    },
+    {
+      "id": "f6c68b4b-0e3a-426c-8673-bbf02083a140",
+      "type": "room",
+      "floor": 1,
+      "cx": 834,
+      "cy": 113,
+      "connection": [
+        "e93d6e5f-7bbd-4470-87d3-2dd6e907f956"
+      ],
+      "slug": "lt1-cu",
+      "objectName": "CU",
+      "label": "Ruang Care Unit (CU) untuk perawatan, observasi medis, dan pemantauan ketat kondisi pasien sebelum dipindahkan atau diizinkan pulang.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "cu",
+        "ruang cu",
+        "care unit",
+        "unit perawatan",
+        "observasi",
+        "ruang rawat sementara"
+      ],
+      "keywords": [
+        "pemantauan intensif",
+        "ruang observasi",
+        "perawatan darurat",
+        "monitor pasien",
+        "recovery room sementara"
+      ]
+    },
+    {
+      "id": "b3b2bc2e-ead9-4f76-9134-9b14ecee7f0e",
+      "type": "room",
+      "floor": 1,
+      "cx": 669,
+      "cy": 79,
+      "connection": [
+        "f1_j17"
+      ],
+      "slug": "lt1-stair",
+      "objectName": "Stair",
+      "label": "Fasilitas tangga akses utama maupun darurat untuk sirkulasi dan perpindahan pengunjung atau staf antar lantai.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "tangga",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga biasa"
+      ],
+      "keywords": [
+        "tangga manual",
+        "akses darurat",
+        "evakuasi",
+        "jalan naik",
+        "jalan turun",
+        "penghubung lantai"
+      ]
+    },
+    {
+      "id": "cd35bd2a-d2e9-4924-a5ff-5a75aaa03ed9",
+      "type": "room",
+      "floor": 1,
+      "cx": 617,
+      "cy": 122,
+      "connection": [
+        "f1_j16"
+      ],
+      "slug": "lt1-mushola",
+      "objectName": "Mushola",
+      "label": "Fasilitas tempat ibadah (Mushola) untuk pengunjung, keluarga pasien, dan staf rumah sakit menunaikan sholat, lengkap dengan area wudhu.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "mushola",
+        "masjid",
+        "ruang sholat",
+        "ibadah",
+        "shalat",
+        "pray room",
+        "musholla",
+        "surau"
+      ],
+      "keywords": [
+        "tempat wudhu",
+        "mukena",
+        "sajadah",
+        "jamaah",
+        "waktu sholat",
+        "ibadah muslim",
+        "ruang doa"
+      ]
+    },
+    {
+      "id": "664b7368-567a-4344-b19d-e6d8a695686a",
+      "type": "room",
+      "floor": 1,
+      "cx": 614,
+      "cy": 321,
+      "connection": [
+        "f1_j10"
+      ],
+      "slug": "lt1-toilet",
+      "objectName": "Toilet",
+      "label": "Fasilitas sanitasi dan toilet umum yang terletak strategis di dekat area Medical Rehab.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet rehab",
+        "wc rehab",
+        "kamar mandi",
+        "restroom",
+        "washroom",
+        "lavatory",
+        "wc"
+      ],
+      "keywords": [
+        "buang air",
+        "cuci tangan",
+        "wastafel",
+        "urinoir",
+        "kloset",
+        "fasilitas kebersihan",
+        "wc umum",
+        "kamar kecil"
+      ]
+    },
+    {
+      "id": "8d907128-1649-4645-906a-016ea129f541",
+      "type": "room",
+      "floor": 1,
+      "cx": 612,
+      "cy": 380,
+      "connection": [
+        "f1_j3"
+      ],
+      "slug": "lt1-bed-lift-lobby",
+      "objectName": "Bed Lift Lobby",
+      "label": "Area tunggu dan akses sirkulasi khusus untuk Bed Lift, digunakan oleh tenaga medis mentransfer pasien dengan brankar antar lantai.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "lift ranjang",
+        "lift pasien",
+        "bed lift",
+        "lift barang",
+        "tunggu lift",
+        "elevator ranjang",
+        "lobi lift medis"
+      ],
+      "keywords": [
+        "transfer pasien",
+        "dorong ranjang",
+        "evakuasi pasien",
+        "lift medis",
+        "ruang tunggu lift pasien",
+        "brankar"
+      ]
+    },
+    {
+      "id": "f1_j63",
+      "type": "junction",
+      "floor": 1,
+      "cx": 627,
+      "cy": 458,
+      "connection": [
+        "f1_j20",
+        "a6336d0d-c78d-44c0-b0c9-5385525e3890",
+        "a343d831-3720-4f9e-9169-dd218092a1b8"
+      ]
+    },
+    {
+      "id": "a6336d0d-c78d-44c0-b0c9-5385525e3890",
+      "type": "room",
+      "floor": 1,
+      "cx": 671,
+      "cy": 459,
+      "connection": [
+        "f1_j63"
+      ],
+      "slug": "lt1-koperasi",
+      "objectName": "Koperasi",
+      "label": "Toko atau koperasi di area lobi utama yang menyediakan makanan ringan, minuman, dan kebutuhan dasar pasien.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "minimarket",
+        "toko",
+        "beli barang",
+        "warung",
+        "koperasi karyawan",
+        "mart",
+        "kantin kecil"
+      ],
+      "keywords": [
+        "beli makanan",
+        "minuman",
+        "snack",
+        "alat mandi",
+        "kebutuhan pasien",
+        "belanja harian",
+        "toko rumah sakit"
+      ]
+    },
+    {
+      "id": "a343d831-3720-4f9e-9169-dd218092a1b8",
+      "type": "room",
+      "floor": 1,
+      "cx": 627,
+      "cy": 434,
+      "connection": [
+        "f1_j63"
+      ],
+      "slug": "lt1-lift-main-lobby",
+      "objectName": "Lift Main Lobby",
+      "label": "Fasilitas lift penumpang umum yang berlokasi di Main Lobby, melayani mobilitas pengunjung dan staf.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "lift utama",
+        "lift lobi",
+        "lift depan",
+        "elevator",
+        "naik",
+        "turun",
+        "passenger lift",
+        "lift umum"
+      ],
+      "keywords": [
+        "akses lantai",
+        "lift pengunjung",
+        "elevator umum",
+        "lobi utama",
+        "tombol lift",
+        "naik turun"
+      ]
+    },
+    {
+      "id": "ab30ca6a-8a9d-440c-bc7b-cab622a7da35",
+      "type": "room",
+      "floor": 1,
+      "cx": 525,
+      "cy": 381,
+      "connection": [
+        "f1_j19"
+      ],
+      "slug": "lt1-stair-2",
+      "objectName": "Stair",
+      "label": "Fasilitas tangga sirkulasi tambahan yang digunakan sebagai akses alternatif atau jalur evakuasi antar lantai.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "tangga",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga biasa",
+        "tangga 2"
+      ],
+      "keywords": [
+        "tangga manual",
+        "akses darurat",
+        "evakuasi",
+        "jalan naik",
+        "jalan turun",
+        "penghubung lantai",
+        "tangga tambahan"
+      ]
+    },
+    {
+      "id": "d556b9c0-d3d4-44f9-aeae-03e200455812",
+      "type": "room",
+      "floor": 1,
+      "cx": 582,
+      "cy": 529,
+      "connection": [
+        "f1_j7"
+      ],
+      "slug": "lt1-library",
+      "objectName": "Library",
+      "label": "Fasilitas perpustakaan dan ruang baca yang menyimpan koleksi literatur dan jurnal medis untuk dokter maupun mahasiswa.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "perpustakaan",
+        "ruang baca",
+        "buku",
+        "baca buku",
+        "library",
+        "perpustakaan medis",
+        "arsip medis"
+      ],
+      "keywords": [
+        "referensi medis",
+        "jurnal kedokteran",
+        "pinjam buku",
+        "tempat belajar",
+        "riset dokter",
+        "literatur kesehatan"
+      ]
+    },
+    {
+      "id": "f1_v68",
+      "type": "room",
+      "floor": 1,
+      "cx": 920,
+      "cy": 489,
+      "connection": [
+        "f1_j26"
+      ],
+      "slug": "",
+      "objectName": "",
+      "label": "",
+      "categoryId": "",
+      "wings": "",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "id": "2243e42a-80f3-4315-a7b8-c71d42c2271a",
+      "type": "room",
+      "floor": 1,
+      "cx": 675,
+      "cy": 403,
+      "connection": [
+        "f1_j1"
+      ],
+      "slug": "lt1-photo-copy",
+      "objectName": "Photo Copy",
+      "label": "Layanan jasa fotokopi, percetakan, dan penggandaan dokumen di lobi utama untuk keperluan administrasi.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "fotokopi",
+        "fotocopy",
+        "print",
+        "cetak dokumen",
+        "copy center",
+        "fotocopy center",
+        "tukang fotocopy"
+      ],
+      "keywords": [
+        "cetak ktp",
+        "fotokopi berkas",
+        "print dokumen bpjs",
+        "jilid",
+        "administrasi pendaftaran",
+        "copy data"
+      ]
+    },
+    {
+      "id": "f1_j70",
+      "type": "junction",
+      "floor": 1,
+      "cx": 831,
+      "cy": 554,
+      "connection": [
+        "f1_j25",
+        "59bf26cd-a99b-4a30-9515-935522f517ad"
+      ]
+    },
+    {
+      "id": "85629f24-5acd-4d4c-b595-80c722e19f65",
+      "type": "room",
+      "floor": 1,
+      "cx": 890,
+      "cy": 520,
+      "connection": [
+        "f1_j26"
+      ],
+      "slug": "lt1-female-change-room",
+      "objectName": "Female Change Room",
+      "label": "Ruang ganti pakaian dan area loker yang mengutamakan privasi khusus untuk staf wanita atau perawat.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "ruang ganti wanita",
+        "ganti baju",
+        "loker wanita",
+        "fitting room",
+        "locker room",
+        "ruang ganti perawat"
+      ],
+      "keywords": [
+        "ganti seragam",
+        "loker staf",
+        "ruang karyawan wanita",
+        "simpan tas",
+        "ruang privasi staf"
+      ]
+    },
+    {
+      "id": "59bf26cd-a99b-4a30-9515-935522f517ad",
+      "type": "room",
+      "floor": 1,
+      "cx": 843,
+      "cy": 564,
+      "connection": [
+        "f1_j70"
+      ],
+      "slug": "lt1-store-2",
+      "objectName": "Store 2",
+      "label": "Ruang gudang (Store 2) untuk keperluan penyimpanan logistik internal, cadangan alat kesehatan, atau barang operasional rumah sakit agar tertata dengan rapi dan aman.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "gudang 2",
+        "ruang penyimpanan",
+        "storage 2",
+        "simpan barang",
+        "gudang internal",
+        "gudang logistik"
+      ],
+      "keywords": [
+        "simpan logistik",
+        "stok alat kesehatan",
+        "inventaris",
+        "gudang farmasi tambahan",
+        "ruang barang"
+      ]
+    },
+    {
+      "id": "2439ba2b-814a-45db-86e1-0b02a065ac5c",
+      "type": "room",
+      "floor": 2,
+      "cx": 685,
+      "cy": 472,
+      "connection": [
+        "f2_j2",
+        "f2_j97"
+      ],
+      "slug": "lt2-main-entrance",
+      "objectName": "Main Entrance",
+      "label": "Akses pintu masuk utama rumah sakit untuk penurunan (drop-off) pasien, pengunjung, dan titik awal menuju layanan resepsionis atau lobi depan.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "pintu utama",
+        "pintu masuk",
+        "lobi depan",
+        "masuk rumah sakit",
+        "main door",
+        "entrance"
+      ],
+      "keywords": [
+        "pintu depan",
+        "lobi",
+        "drop off",
+        "jemput pasien",
+        "akses utama",
+        "resepsionis depan",
+        "masuk gedung"
+      ]
+    },
+    {
+      "id": "f2_j2",
+      "type": "junction",
+      "floor": 2,
+      "cx": 685,
+      "cy": 439,
+      "connection": [
+        "2439ba2b-814a-45db-86e1-0b02a065ac5c",
+        "f2_j3",
+        "f2_j95",
+        "b39e829c-f110-40e5-a9f6-39f0a1a3d29c"
+      ]
+    },
+    {
+      "id": "f2_j3",
+      "type": "junction",
+      "floor": 2,
+      "cx": 687,
+      "cy": 389,
+      "connection": [
+        "f2_j2",
+        "f2_j4",
+        "f2_j56",
+        "f2_j83",
+        "b39e829c-f110-40e5-a9f6-39f0a1a3d29c"
+      ]
+    },
+    {
+      "id": "f2_j4",
+      "type": "junction",
+      "floor": 2,
+      "cx": 688,
+      "cy": 357,
+      "connection": [
+        "f2_j3",
+        "f2_j5",
+        "60f6afc2-369a-4be3-81d7-77674d709474",
+        "a238bc0d-8c2c-4c67-a117-7e19474b380b"
+      ]
+    },
+    {
+      "id": "f2_j5",
+      "type": "junction",
+      "floor": 2,
+      "cx": 688,
+      "cy": 322,
+      "connection": [
+        "f2_j4",
+        "f2_j6"
+      ]
+    },
+    {
+      "id": "f2_j6",
+      "type": "junction",
+      "floor": 2,
+      "cx": 688,
+      "cy": 285,
+      "connection": [
+        "f2_j5",
+        "f2_j7",
+        "f2_j53"
+      ]
+    },
+    {
+      "id": "f2_j7",
+      "type": "junction",
+      "floor": 2,
+      "cx": 688,
+      "cy": 251,
+      "connection": [
+        "f2_j6",
+        "f2_j8"
+      ]
+    },
+    {
+      "id": "f2_j8",
+      "type": "junction",
+      "floor": 2,
+      "cx": 689,
+      "cy": 217,
+      "connection": [
+        "f2_j7",
+        "f2_j9",
+        "f2_j28"
+      ]
+    },
+    {
+      "id": "f2_j9",
+      "type": "junction",
+      "floor": 2,
+      "cx": 689,
+      "cy": 186,
+      "connection": [
+        "f2_j8",
+        "f2_j10",
+        "f2_j48",
+        "f2_v81"
+      ]
+    },
+    {
+      "id": "f2_j10",
+      "type": "junction",
+      "floor": 2,
+      "cx": 689,
+      "cy": 132,
+      "connection": [
+        "f2_j9",
+        "f2_j11",
+        "f2_j16"
+      ]
+    },
+    {
+      "id": "f2_j11",
+      "type": "junction",
+      "floor": 2,
+      "cx": 660,
+      "cy": 132,
+      "connection": [
+        "f2_j10",
+        "f2_j12",
+        "f2_j14"
+      ]
+    },
+    {
+      "id": "f2_j12",
+      "type": "junction",
+      "floor": 2,
+      "cx": 631,
+      "cy": 132,
+      "connection": [
+        "f2_j11",
+        "e6ba7c5b-91d0-4ea8-bfe8-04657b7073a9"
+      ]
+    },
+    {
+      "id": "e6ba7c5b-91d0-4ea8-bfe8-04657b7073a9",
+      "type": "room",
+      "floor": 2,
+      "cx": 602,
+      "cy": 132,
+      "connection": [
+        "f2_j12"
+      ],
+      "slug": "lt2-ent-tht-general",
+      "objectName": "ENT / THT & General",
+      "label": "Klinik layanan terpadu untuk konsultasi spesialis Telinga, Hidung, Tenggorokan (THT) serta dokter umum untuk penanganan keluhan medis dasar dan pemeriksaan kesehatan rutin.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "dokter tht",
+        "telinga hidung tenggorokan",
+        "poli tht",
+        "dokter umum",
+        "poli umum",
+        "general clinic"
+      ],
+      "keywords": [
+        "sakit tenggorokan",
+        "telinga berdengung",
+        "amandel",
+        "sinus",
+        "flu",
+        "batuk",
+        "pusing",
+        "demam",
+        "surat keterangan sehat",
+        "periksa rutin",
+        "poliklinik gabungan"
+      ]
+    },
+    {
+      "id": "f2_j14",
+      "type": "junction",
+      "floor": 2,
+      "cx": 659,
+      "cy": 102,
+      "connection": [
+        "f2_j11",
+        "f2_j15",
+        "65867a53-cc4d-4b71-920b-2a1944919b08"
+      ]
+    },
+    {
+      "id": "f2_j15",
+      "type": "junction",
+      "floor": 2,
+      "cx": 658,
+      "cy": 73,
+      "connection": [
+        "f2_j14",
+        "6d50f300-5dbd-413f-8120-255a1a9e1dfa",
+        "e96936e9-28e1-49e4-bb4d-0ee6b395779b"
+      ]
+    },
+    {
+      "id": "f2_j16",
+      "type": "junction",
+      "floor": 2,
+      "cx": 717,
+      "cy": 132,
+      "connection": [
+        "f2_j10",
+        "f2_j17"
+      ]
+    },
+    {
+      "id": "f2_j17",
+      "type": "junction",
+      "floor": 2,
+      "cx": 745,
+      "cy": 132,
+      "connection": [
+        "f2_j16",
+        "f2_j18",
+        "f2_j20"
+      ]
+    },
+    {
+      "id": "f2_j18",
+      "type": "junction",
+      "floor": 2,
+      "cx": 773,
+      "cy": 132,
+      "connection": [
+        "f2_j17",
+        "f2_j19"
+      ]
+    },
+    {
+      "id": "f2_j19",
+      "type": "junction",
+      "floor": 2,
+      "cx": 801,
+      "cy": 133,
+      "connection": [
+        "f2_j18",
+        "f2_j23",
+        "f2_j30"
+      ]
+    },
+    {
+      "id": "f2_j20",
+      "type": "junction",
+      "floor": 2,
+      "cx": 745,
+      "cy": 104,
+      "connection": [
+        "f2_j17",
+        "ed1282d4-26b8-4719-a474-8b3252e2d1d8"
+      ]
+    },
+    {
+      "id": "ed1282d4-26b8-4719-a474-8b3252e2d1d8",
+      "type": "room",
+      "floor": 2,
+      "cx": 746,
+      "cy": 80,
+      "connection": [
+        "f2_j20"
+      ],
+      "slug": "lt2-obgyn-consult-room",
+      "objectName": "Obgyn Consult Room",
+      "label": "Ruang konsultasi dokter spesialis kebidanan dan kandungan (Obgyn) untuk pemeriksaan kehamilan, program hamil, USG janin, dan kesehatan sistem reproduksi wanita.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "dokter kandungan",
+        "obgyn",
+        "ibu hamil",
+        "kehamilan",
+        "poli kandungan",
+        "poli kebidanan",
+        "spesialis kandungan"
+      ],
+      "keywords": [
+        "usg kehamilan",
+        "cek janin",
+        "program hamil",
+        "promil",
+        "spesialis kandungan",
+        "kesehatan reproduksi wanita",
+        "cek usg",
+        "bersalin",
+        "rahim"
+      ]
+    },
+    {
+      "id": "f2_j23",
+      "type": "junction",
+      "floor": 2,
+      "cx": 801,
+      "cy": 161,
+      "connection": [
+        "f2_j19",
+        "f2_j24"
+      ]
+    },
+    {
+      "id": "f2_j24",
+      "type": "junction",
+      "floor": 2,
+      "cx": 801,
+      "cy": 188,
+      "connection": [
+        "f2_j23",
+        "f2_j25",
+        "f2_j37"
+      ]
+    },
+    {
+      "id": "f2_j25",
+      "type": "junction",
+      "floor": 2,
+      "cx": 801,
+      "cy": 216,
+      "connection": [
+        "f2_j24",
+        "f2_j26"
+      ]
+    },
+    {
+      "id": "f2_j26",
+      "type": "junction",
+      "floor": 2,
+      "cx": 773,
+      "cy": 216,
+      "connection": [
+        "f2_j25",
+        "f2_j27",
+        "d5ceb265-62c2-438c-add8-0c5a4c43ad1d"
+      ]
+    },
+    {
+      "id": "f2_j27",
+      "type": "junction",
+      "floor": 2,
+      "cx": 745,
+      "cy": 217,
+      "connection": [
+        "f2_j26",
+        "f2_j28"
+      ]
+    },
+    {
+      "id": "f2_j28",
+      "type": "junction",
+      "floor": 2,
+      "cx": 717,
+      "cy": 217,
+      "connection": [
+        "f2_j27",
+        "f2_j8"
+      ]
+    },
+    {
+      "id": "f2_j30",
+      "type": "junction",
+      "floor": 2,
+      "cx": 800,
+      "cy": 102,
+      "connection": [
+        "f2_j19",
+        "f2_j31"
+      ]
+    },
+    {
+      "id": "f2_j31",
+      "type": "junction",
+      "floor": 2,
+      "cx": 831,
+      "cy": 102,
+      "connection": [
+        "f2_j30",
+        "f2_j32",
+        "8d271d86-9cfe-4306-b492-9899263fc82d",
+        "5c97497a-dfc7-43da-a3e7-067145eff412"
+      ]
+    },
+    {
+      "id": "f2_j32",
+      "type": "junction",
+      "floor": 2,
+      "cx": 861,
+      "cy": 102,
+      "connection": [
+        "f2_j31",
+        "f2_j33"
+      ]
+    },
+    {
+      "id": "f2_j33",
+      "type": "junction",
+      "floor": 2,
+      "cx": 892,
+      "cy": 102,
+      "connection": [
+        "f2_j32",
+        "f2_j34"
+      ]
+    },
+    {
+      "id": "f2_j34",
+      "type": "junction",
+      "floor": 2,
+      "cx": 923,
+      "cy": 102,
+      "connection": [
+        "f2_j33",
+        "0e29b1cd-f02a-4f73-93bd-e1b28b421299",
+        "931bf1b9-5fb2-429c-853f-5a44e367b81a"
+      ]
+    },
+    {
+      "id": "f2_j37",
+      "type": "junction",
+      "floor": 2,
+      "cx": 834,
+      "cy": 188,
+      "connection": [
+        "f2_j24",
+        "f2_j38",
+        "f2_j41",
+        "9564dabf-a5f3-45d7-bb3f-ada0640dc316"
+      ]
+    },
+    {
+      "id": "f2_j38",
+      "type": "junction",
+      "floor": 2,
+      "cx": 866,
+      "cy": 188,
+      "connection": [
+        "f2_j37",
+        "7e0cffa7-35b8-4ec6-b90e-2e2515e69674"
+      ]
+    },
+    {
+      "id": "7e0cffa7-35b8-4ec6-b90e-2e2515e69674",
+      "type": "room",
+      "floor": 2,
+      "cx": 899,
+      "cy": 188,
+      "connection": [
+        "f2_j38"
+      ],
+      "slug": "lt2-surgical",
+      "objectName": "Surgical",
+      "label": "Ruang poliklinik bedah untuk konsultasi prapembedahan, evaluasi pasca bedah, perawatan luka, buka jahitan, dan tindakan operasi kecil (bedah minor).",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "bedah",
+        "dokter bedah",
+        "poli bedah",
+        "operasi kecil",
+        "tindakan bedah",
+        "surgeon"
+      ],
+      "keywords": [
+        "bedah minor",
+        "konsultasi operasi",
+        "jahitan",
+        "buka jahitan",
+        "dokter spesialis bedah",
+        "luka robek",
+        "poliklinik bedah"
+      ]
+    },
+    {
+      "id": "f2_j41",
+      "type": "junction",
+      "floor": 2,
+      "cx": 834,
+      "cy": 216,
+      "connection": [
+        "f2_j37",
+        "b605cb7f-731e-4a41-8a48-c0eb24a3538a"
+      ]
+    },
+    {
+      "id": "b605cb7f-731e-4a41-8a48-c0eb24a3538a",
+      "type": "room",
+      "floor": 2,
+      "cx": 833,
+      "cy": 243,
+      "connection": [
+        "f2_j41",
+        "f2_j43"
+      ],
+      "slug": "lt2-waiting-area-paediatrics",
+      "objectName": "Waiting Area Paediatrics",
+      "label": "Area tunggu yang dirancang ramah anak, dilengkapi dengan fasilitas bermain untuk menghibur pasien anak dan balita selagi menunggu giliran konsultasi di Poli Anak.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "ruang tunggu anak",
+        "tunggu poli anak",
+        "tempat main anak",
+        "waiting room anak"
+      ],
+      "keywords": [
+        "tempat main anak",
+        "ruang tunggu bayi",
+        "playground rumah sakit",
+        "nunggu dokter anak",
+        "arena bermain balita"
+      ]
+    },
+    {
+      "id": "f2_j43",
+      "type": "junction",
+      "floor": 2,
+      "cx": 833,
+      "cy": 271,
+      "connection": [
+        "b605cb7f-731e-4a41-8a48-c0eb24a3538a",
+        "f2_j44"
+      ]
+    },
+    {
+      "id": "f2_j44",
+      "type": "junction",
+      "floor": 2,
+      "cx": 863,
+      "cy": 271,
+      "connection": [
+        "f2_j43",
+        "f2_j45"
+      ]
+    },
+    {
+      "id": "f2_j45",
+      "type": "junction",
+      "floor": 2,
+      "cx": 893,
+      "cy": 272,
+      "connection": [
+        "f2_j44",
+        "db5d867f-8afb-4429-b6e9-afcf8d1fbddb"
+      ]
+    },
+    {
+      "id": "db5d867f-8afb-4429-b6e9-afcf8d1fbddb",
+      "type": "room",
+      "floor": 2,
+      "cx": 923,
+      "cy": 272,
+      "connection": [
+        "f2_j45",
+        "f2_j47"
+      ],
+      "slug": "lt2-paediatrics-consult-and-treatment",
+      "objectName": "Paediatrics Consult and Treatment",
+      "label": "Ruang klinik khusus untuk konsultasi, pemantauan tumbuh kembang, pemberian imunisasi, dan perawatan medis anak serta bayi yang ditangani oleh dokter spesialis anak.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "dokter anak",
+        "poli anak",
+        "klinik anak",
+        "periksa anak",
+        "bayi",
+        "pediatrik",
+        "pediatrician"
+      ],
+      "keywords": [
+        "imunisasi",
+        "vaksin anak",
+        "tumbuh kembang",
+        "anak sakit",
+        "demam bayi",
+        "cek kesehatan bayi",
+        "dokter spesialis anak"
+      ]
+    },
+    {
+      "id": "f2_j47",
+      "type": "junction",
+      "floor": 2,
+      "cx": 923,
+      "cy": 308,
+      "connection": [
+        "db5d867f-8afb-4429-b6e9-afcf8d1fbddb",
+        "96460dc3-0c6c-41cd-8a03-74d468e50071",
+        "e0e83291-b6f6-42f7-a790-d0dd40033ec0"
+      ]
+    },
+    {
+      "id": "f2_j48",
+      "type": "junction",
+      "floor": 2,
+      "cx": 660,
+      "cy": 185,
+      "connection": [
+        "f2_j9",
+        "f2_j49"
+      ]
+    },
+    {
+      "id": "f2_j49",
+      "type": "junction",
+      "floor": 2,
+      "cx": 625,
+      "cy": 186,
+      "connection": [
+        "f2_j48",
+        "66aea280-1e75-4836-9473-417349dec8cc"
+      ]
+    },
+    {
+      "id": "66aea280-1e75-4836-9473-417349dec8cc",
+      "type": "room",
+      "floor": 2,
+      "cx": 590,
+      "cy": 186,
+      "connection": [
+        "f2_j49"
+      ],
+      "slug": "lt2-dental-eyes-consult-and-treatment-room",
+      "objectName": "Dental & Eyes Consult and Treatment Room",
+      "label": "Klinik gabungan yang memfasilitasi tindakan dokter spesialis gigi (cabut, tambal, pembersihan karang) dan spesialis mata (pemeriksaan visus, katarak, atau retina mata).",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "dokter gigi",
+        "poli gigi",
+        "dokter mata",
+        "poli mata",
+        "cabut gigi",
+        "periksa mata",
+        "katarak",
+        "kedokteran gigi"
+      ],
+      "keywords": [
+        "sakit gigi",
+        "tambal gigi",
+        "scaling",
+        "karang gigi",
+        "periksa minus",
+        "mata rabun",
+        "silinder",
+        "katarak",
+        "kacamata",
+        "poli gigi mata"
+      ]
+    },
+    {
+      "id": "f2_j53",
+      "type": "junction",
+      "floor": 2,
+      "cx": 650,
+      "cy": 284,
+      "connection": [
+        "f2_j6",
+        "4a0ba561-f0fd-46a1-ac48-47bd8f6f8d63",
+        "f2_v126"
+      ]
+    },
+    {
+      "id": "4a0ba561-f0fd-46a1-ac48-47bd8f6f8d63",
+      "type": "room",
+      "floor": 2,
+      "cx": 593,
+      "cy": 283,
+      "connection": [
+        "f2_j53"
+      ],
+      "slug": "lt2-ecg-consult-room",
+      "objectName": "ECG Consult Room",
+      "label": "Ruang khusus untuk pemeriksaan rekam jantung (EKG / Elektrokardiogram) guna mendeteksi gangguan irama jantung, nyeri dada, atau sebagai bagian dari Medical Check Up rutin.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ekg",
+        "rekam jantung",
+        "periksa jantung",
+        "tes jantung",
+        "ecg",
+        "electrocardiogram"
+      ],
+      "keywords": [
+        "rekam detak jantung",
+        "sakit dada",
+        "sesak dada",
+        "irama jantung",
+        "elektrokardiogram",
+        "screening jantung"
+      ]
+    },
+    {
+      "id": "f2_j56",
+      "type": "junction",
+      "floor": 2,
+      "cx": 649,
+      "cy": 388,
+      "connection": [
+        "f2_j3",
+        "f2_j57"
+      ]
+    },
+    {
+      "id": "f2_j57",
+      "type": "junction",
+      "floor": 2,
+      "cx": 614,
+      "cy": 388,
+      "connection": [
+        "f2_j56",
+        "f2_j58",
+        "94a67cb8-f749-44b3-bf3f-aec96fa6d74f"
+      ]
+    },
+    {
+      "id": "f2_j58",
+      "type": "junction",
+      "floor": 2,
+      "cx": 574,
+      "cy": 389,
+      "connection": [
+        "f2_j57",
+        "f2_j59",
+        "f2_j111"
+      ]
+    },
+    {
+      "id": "f2_j59",
+      "type": "junction",
+      "floor": 2,
+      "cx": 517,
+      "cy": 392,
+      "connection": [
+        "f2_j58",
+        "f2_j60",
+        "f2_v112"
+      ]
+    },
+    {
+      "id": "f2_j60",
+      "type": "junction",
+      "floor": 2,
+      "cx": 535,
+      "cy": 419,
+      "connection": [
+        "f2_j59",
+        "f2_j61",
+        "f2_j65"
+      ]
+    },
+    {
+      "id": "f2_j61",
+      "type": "junction",
+      "floor": 2,
+      "cx": 536,
+      "cy": 459,
+      "connection": [
+        "f2_j60",
+        "f2_j62"
+      ]
+    },
+    {
+      "id": "f2_j62",
+      "type": "junction",
+      "floor": 2,
+      "cx": 535,
+      "cy": 492,
+      "connection": [
+        "f2_j61",
+        "f2_j63"
+      ]
+    },
+    {
+      "id": "f2_j63",
+      "type": "junction",
+      "floor": 2,
+      "cx": 535,
+      "cy": 524,
+      "connection": [
+        "f2_j62",
+        "f2_j64"
+      ]
+    },
+    {
+      "id": "f2_j64",
+      "type": "junction",
+      "floor": 2,
+      "cx": 535,
+      "cy": 557,
+      "connection": [
+        "f2_j63",
+        "f2_j102",
+        "8183e470-acc9-4a4a-8dc3-732a57ccc624"
+      ]
+    },
+    {
+      "id": "f2_j65",
+      "type": "junction",
+      "floor": 2,
+      "cx": 497,
+      "cy": 421,
+      "connection": [
+        "f2_j60",
+        "f2_j66",
+        "f2_j113"
+      ]
+    },
+    {
+      "id": "f2_j66",
+      "type": "junction",
+      "floor": 2,
+      "cx": 466,
+      "cy": 420,
+      "connection": [
+        "f2_j65",
+        "8eeacc0c-226e-4bdb-bdda-deda8d042f3a"
+      ]
+    },
+    {
+      "id": "8eeacc0c-226e-4bdb-bdda-deda8d042f3a",
+      "type": "room",
+      "floor": 2,
+      "cx": 439,
+      "cy": 420,
+      "connection": [
+        "f2_j66",
+        "f2_j68",
+        "04724a5b-0ab0-4d63-9220-89ddbd6d625c"
+      ],
+      "slug": "lt2-x-ray-imaging",
+      "objectName": "X-Ray & Imaging",
+      "label": "Pusat fasilitas radiologi untuk pengambilan gambar medis menggunakan sinar-X (X-Ray) untuk mendiagnosis patah tulang, infeksi paru, dan gangguan internal lainnya.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "rontgen",
+        "x-ray",
+        "radiologi",
+        "imaging",
+        "foto tulang",
+        "ronsen"
+      ],
+      "keywords": [
+        "foto rontgen",
+        "patah tulang",
+        "rontgen paru",
+        "ronsen dada",
+        "cedera tulang",
+        "pencitraan medis",
+        "hasil rontgen"
+      ]
+    },
+    {
+      "id": "f2_j68",
+      "type": "junction",
+      "floor": 2,
+      "cx": 400,
+      "cy": 420,
+      "connection": [
+        "8eeacc0c-226e-4bdb-bdda-deda8d042f3a",
+        "f2_j69"
+      ]
+    },
+    {
+      "id": "f2_j69",
+      "type": "junction",
+      "floor": 2,
+      "cx": 399,
+      "cy": 452,
+      "connection": [
+        "f2_j68",
+        "f2_j70"
+      ]
+    },
+    {
+      "id": "f2_j70",
+      "type": "junction",
+      "floor": 2,
+      "cx": 379,
+      "cy": 452,
+      "connection": [
+        "f2_j69",
+        "f2_j71",
+        "f2_j89"
+      ]
+    },
+    {
+      "id": "f2_j71",
+      "type": "junction",
+      "floor": 2,
+      "cx": 379,
+      "cy": 491,
+      "connection": [
+        "f2_j70",
+        "f2_j72",
+        "edca7fd5-8030-40e1-8e54-f387c9b9c38d"
+      ]
+    },
+    {
+      "id": "f2_j72",
+      "type": "junction",
+      "floor": 2,
+      "cx": 379,
+      "cy": 530,
+      "connection": [
+        "f2_j71",
+        "f2_j73",
+        "acc336b9-f3bf-472a-98ba-95b29a3e64a8",
+        "f15ad3ac-fb40-4caf-b9b3-ca630920e213",
+        "ff3dc439-bac5-4da0-a46b-3aff1ee21c10"
+      ]
+    },
+    {
+      "id": "f2_j73",
+      "type": "junction",
+      "floor": 2,
+      "cx": 378,
+      "cy": 569,
+      "connection": [
+        "f2_j72",
+        "f2_j74",
+        "45a434c2-d4fa-4e0b-88a2-e60e6e5e534f",
+        "46eae22e-b0c8-45cf-83ab-c46b9a4af56c"
+      ]
+    },
+    {
+      "id": "f2_j74",
+      "type": "junction",
+      "floor": 2,
+      "cx": 378,
+      "cy": 614,
+      "connection": [
+        "f2_j73",
+        "f2_j75",
+        "f2_j76",
+        "e7b24b41-0b6d-4e46-a801-ddf81fabb07b"
+      ]
+    },
+    {
+      "id": "f2_j75",
+      "type": "junction",
+      "floor": 2,
+      "cx": 378,
+      "cy": 647,
+      "connection": [
+        "f2_j74",
+        "7e60623c-ddad-4c77-805e-91cc347143a0"
+      ]
+    },
+    {
+      "id": "f2_j76",
+      "type": "junction",
+      "floor": 2,
+      "cx": 345,
+      "cy": 613,
+      "connection": [
+        "f2_j74",
+        "f2_j77",
+        "5be77162-7da9-43af-9e1d-304310abe8df"
+      ]
+    },
+    {
+      "id": "f2_j77",
+      "type": "junction",
+      "floor": 2,
+      "cx": 312,
+      "cy": 612,
+      "connection": [
+        "f2_j76",
+        "f2_j78"
+      ]
+    },
+    {
+      "id": "f2_j78",
+      "type": "junction",
+      "floor": 2,
+      "cx": 312,
+      "cy": 571,
+      "connection": [
+        "f2_j77",
+        "f2_j79",
+        "46eae22e-b0c8-45cf-83ab-c46b9a4af56c",
+        "45a434c2-d4fa-4e0b-88a2-e60e6e5e534f"
+      ]
+    },
+    {
+      "id": "f2_j79",
+      "type": "junction",
+      "floor": 2,
+      "cx": 311,
+      "cy": 520,
+      "connection": [
+        "f2_j78",
+        "f15ad3ac-fb40-4caf-b9b3-ca630920e213",
+        "ff3dc439-bac5-4da0-a46b-3aff1ee21c10"
+      ]
+    },
+    {
+      "id": "f2_v81",
+      "type": "room",
+      "floor": 2,
+      "cx": 735,
+      "cy": 185,
+      "connection": [
+        "f2_j9"
+      ],
+      "slug": "",
+      "objectName": "",
+      "label": "",
+      "categoryId": "",
+      "wings": "",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "id": "d5ceb265-62c2-438c-add8-0c5a4c43ad1d",
+      "type": "room",
+      "floor": 2,
+      "cx": 773,
+      "cy": 259,
+      "connection": [
+        "f2_j26",
+        "937ece52-fec6-4328-b010-7a59480989ef"
+      ],
+      "slug": "lt2-boston-pharmacy",
+      "objectName": "Boston Pharmacy",
+      "label": "Toko ritel kesehatan Boston Pharmacy yang menyediakan obat-obatan bebas, suplemen kesehatan, vitamin, alat kesehatan ringan, serta produk kebersihan untuk publik.",
+      "categoryId": "PHARMACY",
+      "wings": "",
+      "aliases": [
+        "apotek boston",
+        "toko obat boston",
+        "beli obat",
+        "farmasi boston",
+        "boston health"
+      ],
+      "keywords": [
+        "toko kesehatan",
+        "suplemen",
+        "vitamin",
+        "alat kesehatan",
+        "obat bebas",
+        "skincare medis",
+        "obat tanpa resep"
+      ]
+    },
+    {
+      "id": "f2_j83",
+      "type": "junction",
+      "floor": 2,
+      "cx": 726,
+      "cy": 388,
+      "connection": [
+        "f2_j3",
+        "f2_j84",
+        "b522b730-7ed6-43b3-8e86-54edbd1e83ad",
+        "b39e829c-f110-40e5-a9f6-39f0a1a3d29c"
+      ]
+    },
+    {
+      "id": "f2_j84",
+      "type": "junction",
+      "floor": 2,
+      "cx": 764,
+      "cy": 388,
+      "connection": [
+        "f2_j83",
+        "f2_j85"
+      ]
+    },
+    {
+      "id": "f2_j85",
+      "type": "junction",
+      "floor": 2,
+      "cx": 803,
+      "cy": 387,
+      "connection": [
+        "f2_j84",
+        "f2_j86"
+      ]
+    },
+    {
+      "id": "f2_j86",
+      "type": "junction",
+      "floor": 2,
+      "cx": 842,
+      "cy": 387,
+      "connection": [
+        "f2_j85",
+        "f2_j87",
+        "48a978ce-03cd-41c8-a0cf-c58eeddfe88b",
+        "2399243a-0068-4270-ba91-6f57aff333fd"
+      ]
+    },
+    {
+      "id": "f2_j87",
+      "type": "junction",
+      "floor": 2,
+      "cx": 893,
+      "cy": 386,
+      "connection": [
+        "f2_j86",
+        "e892566f-dcac-4f2d-832e-ba35c0e78127",
+        "79f1ac74-9bbc-4d22-a26e-8fbb3dbe1497",
+        "172bcd71-045a-4a5a-b709-59732ac6c081"
+      ]
+    },
+    {
+      "id": "f2_j89",
+      "type": "junction",
+      "floor": 2,
+      "cx": 364,
+      "cy": 434,
+      "connection": [
+        "f2_j70",
+        "f2_j90",
+        "f2_j94",
+        "6d140087-5aea-4f3b-bec8-563084a9cedf"
+      ]
+    },
+    {
+      "id": "f2_j90",
+      "type": "junction",
+      "floor": 2,
+      "cx": 363,
+      "cy": 402,
+      "connection": [
+        "f2_j89",
+        "f2_j91"
+      ]
+    },
+    {
+      "id": "f2_j91",
+      "type": "junction",
+      "floor": 2,
+      "cx": 361,
+      "cy": 369,
+      "connection": [
+        "f2_j90",
+        "f2_j92"
+      ]
+    },
+    {
+      "id": "f2_j92",
+      "type": "junction",
+      "floor": 2,
+      "cx": 360,
+      "cy": 337,
+      "connection": [
+        "f2_j91",
+        "f2_j93",
+        "a8f105ca-ea0a-40cc-8610-72402b80298f"
+      ]
+    },
+    {
+      "id": "f2_j93",
+      "type": "junction",
+      "floor": 2,
+      "cx": 310,
+      "cy": 335,
+      "connection": [
+        "f2_j92",
+        "8bae7016-e13c-4daa-8faa-1b6a9246fb86",
+        "96460dc3-0c6c-41cd-8a03-74d468e50071_2"
+      ]
+    },
+    {
+      "id": "f2_j94",
+      "type": "junction",
+      "floor": 2,
+      "cx": 339,
+      "cy": 417,
+      "connection": [
+        "f2_j89",
+        "c1e27cf4-ff09-47f3-a9c5-58780d148f48"
+      ]
+    },
+    {
+      "id": "f2_j95",
+      "type": "junction",
+      "floor": 2,
+      "cx": 650,
+      "cy": 439,
+      "connection": [
+        "f2_j2",
+        "f2_j96"
+      ]
+    },
+    {
+      "id": "f2_j96",
+      "type": "junction",
+      "floor": 2,
+      "cx": 611,
+      "cy": 440,
+      "connection": [
+        "f2_j95",
+        "f2_j97",
+        "f29b0991-1049-4c46-afcf-6c8fbd035049"
+      ]
+    },
+    {
+      "id": "f2_j97",
+      "type": "junction",
+      "floor": 2,
+      "cx": 612,
+      "cy": 472,
+      "connection": [
+        "f2_j96",
+        "d6f5ba04-f2cf-468b-967b-3315158ce74e",
+        "2439ba2b-814a-45db-86e1-0b02a065ac5c"
+      ]
+    },
+    {
+      "id": "d6f5ba04-f2cf-468b-967b-3315158ce74e",
+      "type": "room",
+      "floor": 2,
+      "cx": 612,
+      "cy": 497,
+      "connection": [
+        "f2_j97",
+        "86412637-3cc6-4bab-9c6b-8891250cd541"
+      ],
+      "slug": "lt2-in-registration",
+      "objectName": "In Registration",
+      "label": "Meja layanan admission utama untuk registrasi pasien rawat jalan dan rawat inap, verifikasi asuransi kesehatan, serta pembuatan jadwal janji temu dengan dokter spesialis.",
+      "categoryId": "ADMIN",
+      "wings": "",
+      "aliases": [
+        "pendaftaran",
+        "registrasi",
+        "daftar rawat inap",
+        "admission",
+        "daftar pasien",
+        "loket daftar"
+      ],
+      "keywords": [
+        "daftar dokter",
+        "buat janji poli",
+        "antrean bpjs",
+        "asuransi kesehatan",
+        "registrasi pasien baru",
+        "pasien lama",
+        "loket daftar"
+      ]
+    },
+    {
+      "id": "86412637-3cc6-4bab-9c6b-8891250cd541",
+      "type": "room",
+      "floor": 2,
+      "cx": 611,
+      "cy": 529,
+      "connection": [
+        "d6f5ba04-f2cf-468b-967b-3315158ce74e",
+        "f2_j100"
+      ],
+      "slug": "lt2-cashier",
+      "objectName": "Cashier",
+      "label": "Loket kasir pusat untuk mengurus semua penyelesaian administrasi pembayaran, tagihan konsultasi medis, biaya obat, dan tindakan rumah sakit.",
+      "categoryId": "ADMIN",
+      "wings": "",
+      "aliases": [
+        "kasir",
+        "bayar",
+        "pembayaran",
+        "tagihan",
+        "bill",
+        "payment"
+      ],
+      "keywords": [
+        "bayar dokter",
+        "tebus obat",
+        "pelunasan asuransi",
+        "invoice",
+        "loket pembayaran",
+        "biaya rumah sakit",
+        "billing"
+      ]
+    },
+    {
+      "id": "f2_j100",
+      "type": "junction",
+      "floor": 2,
+      "cx": 611,
+      "cy": 560,
+      "connection": [
+        "86412637-3cc6-4bab-9c6b-8891250cd541",
+        "f2_j101"
+      ]
+    },
+    {
+      "id": "f2_j101",
+      "type": "junction",
+      "floor": 2,
+      "cx": 610,
+      "cy": 591,
+      "connection": [
+        "f2_j100",
+        "8183e470-acc9-4a4a-8dc3-732a57ccc624"
+      ]
+    },
+    {
+      "id": "f2_j102",
+      "type": "junction",
+      "floor": 2,
+      "cx": 497,
+      "cy": 557,
+      "connection": [
+        "f2_j64",
+        "35643fd1-909f-443c-8f5b-5a3b3eda009f"
+      ]
+    },
+    {
+      "id": "35643fd1-909f-443c-8f5b-5a3b3eda009f",
+      "type": "room",
+      "floor": 2,
+      "cx": 432,
+      "cy": 559,
+      "connection": [
+        "f2_j102",
+        "e7b24b41-0b6d-4e46-a801-ddf81fabb07b"
+      ],
+      "slug": "lt2-accident-and-emergency",
+      "objectName": "Accident and Emergency",
+      "label": "Instalasi Gawat Darurat (IGD) yang siaga 24 jam dengan tim medis terlatih untuk memberikan penanganan cepat bagi pasien dalam kondisi kritis, trauma berat, atau kecelakaan.",
+      "categoryId": "EMERGENCY",
+      "wings": "",
+      "aliases": [
+        "ugd",
+        "igd",
+        "gawat darurat",
+        "emergency",
+        "kecelakaan",
+        "darurat",
+        "ambulans"
+      ],
+      "keywords": [
+        "kondisi kritis",
+        "pendarahan",
+        "kecelakaan",
+        "pertolongan pertama",
+        "dokter jaga 24 jam",
+        "ambulans masuk",
+        "pasien kritis"
+      ]
+    },
+    {
+      "id": "8bae7016-e13c-4daa-8faa-1b6a9246fb86",
+      "type": "room",
+      "floor": 2,
+      "cx": 311,
+      "cy": 297,
+      "connection": [
+        "f2_j93"
+      ],
+      "slug": "lt2-gamma-knife",
+      "objectName": "Gamma Knife",
+      "label": "Fasilitas bedah saraf canggih menggunakan teknologi Gamma Knife, memungkinkan pengobatan presisi tinggi untuk tumor otak dan kelainan pembuluh darah otak tanpa sayatan bedah.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "gamma knife",
+        "radiasi otak",
+        "bedah saraf",
+        "tumor otak",
+        "bedah gamma"
+      ],
+      "keywords": [
+        "operasi tanpa sayatan",
+        "radiasi tumor",
+        "kanker otak",
+        "bedah saraf non invasif",
+        "radioterapi",
+        "teknologi gamma"
+      ]
+    },
+    {
+      "id": "c1e27cf4-ff09-47f3-a9c5-58780d148f48",
+      "type": "room",
+      "floor": 2,
+      "cx": 303,
+      "cy": 391,
+      "connection": [
+        "f2_j94"
+      ],
+      "slug": "lt2-mri-3t",
+      "objectName": "MRI 3T",
+      "label": "Pusat pencitraan medis tingkat lanjut yang dilengkapi mesin MRI 3 Tesla, menghasilkan gambar resolusi super tinggi untuk diagnosis akurat pada saraf, otak, dan tulang belakang.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "mri 3t",
+        "scan mri",
+        "mri scan",
+        "periksa mri",
+        "radiologi mri"
+      ],
+      "keywords": [
+        "scan tubuh detail",
+        "pencitraan resolusi tinggi",
+        "magnetic resonance",
+        "scan saraf",
+        "cedera otot",
+        "radiologi tingkat lanjut"
+      ]
+    },
+    {
+      "id": "04724a5b-0ab0-4d63-9220-89ddbd6d625c",
+      "type": "room",
+      "floor": 2,
+      "cx": 438,
+      "cy": 364,
+      "connection": [
+        "8eeacc0c-226e-4bdb-bdda-deda8d042f3a",
+        "da8ecea8-0e8c-4bbb-83a8-3baa63494f1c",
+        "28b657a0-149c-4128-98b4-8af82aa65496",
+        "f2_j113"
+      ],
+      "slug": "lt2-waiting-ct-area",
+      "objectName": "Waiting CT Area",
+      "label": "Area ruang tunggu yang didedikasikan bagi pasien dan keluarga yang sedang menunggu antrean pelaksanaan CT Scan atau menunggu hasil pencitraan medis selesai.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "tunggu ct scan",
+        "ruang tunggu ct",
+        "tunggu radiologi"
+      ],
+      "keywords": [
+        "antre ct scan",
+        "tunggu hasil radiologi",
+        "ruang tunggu scan",
+        "nunggu panggilan rontgen"
+      ]
+    },
+    {
+      "id": "f29b0991-1049-4c46-afcf-6c8fbd035049",
+      "type": "room",
+      "floor": 2,
+      "cx": 610,
+      "cy": 413,
+      "connection": [
+        "f2_j96"
+      ],
+      "slug": "lt2-lift-main-lobby",
+      "objectName": "Lift Main Lobby",
+      "label": "Fasilitas lift penumpang utama (Passenger Lift) di area lobi depan Lantai 2 untuk memudahkan akses mobilitas pengunjung, pasien, dan staf antar lantai.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "lift utama",
+        "lift lobi",
+        "lift depan",
+        "elevator",
+        "naik",
+        "turun"
+      ],
+      "keywords": [
+        "naik lift",
+        "turun lantai",
+        "akses lift pengunjung",
+        "lift depan",
+        "elevator utama",
+        "naik ke bangsal"
+      ]
+    },
+    {
+      "id": "94a67cb8-f749-44b3-bf3f-aec96fa6d74f",
+      "type": "room",
+      "floor": 2,
+      "cx": 614,
+      "cy": 359,
+      "connection": [
+        "f2_j57"
+      ],
+      "slug": "lt2-bed-lift-lobby",
+      "objectName": "Bed Lift Lobby",
+      "label": "Area lobi dan akses sirkulasi lift ukuran ekstra besar (Bed Lift), dikhususkan bagi tenaga medis untuk memindahkan pasien menggunakan tempat tidur (brankar) antar unit pelayanan.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "lift ranjang",
+        "lift pasien",
+        "bed lift",
+        "lift barang",
+        "lift bed"
+      ],
+      "keywords": [
+        "transfer ranjang",
+        "evakuasi",
+        "brankar pasien",
+        "lift medis",
+        "angkut pasien ruang operasi"
+      ]
+    },
+    {
+      "id": "f2_j111",
+      "type": "junction",
+      "floor": 2,
+      "cx": 573,
+      "cy": 355,
+      "connection": [
+        "f2_j58",
+        "f2_v112"
+      ]
+    },
+    {
+      "id": "f2_v112",
+      "type": "room",
+      "floor": 2,
+      "cx": 518,
+      "cy": 355,
+      "connection": [
+        "f2_j111",
+        "f2_j113",
+        "f2_j59"
+      ],
+      "slug": "",
+      "objectName": "",
+      "label": "",
+      "categoryId": "",
+      "wings": "",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "id": "f2_j113",
+      "type": "junction",
+      "floor": 2,
+      "cx": 496,
+      "cy": 367,
+      "connection": [
+        "f2_j65",
+        "f2_j114",
+        "f2_v112",
+        "04724a5b-0ab0-4d63-9220-89ddbd6d625c"
+      ]
+    },
+    {
+      "id": "f2_j114",
+      "type": "junction",
+      "floor": 2,
+      "cx": 495,
+      "cy": 312,
+      "connection": [
+        "f2_j113",
+        "f2_v115"
+      ]
+    },
+    {
+      "id": "f2_v115",
+      "type": "room",
+      "floor": 2,
+      "cx": 496,
+      "cy": 260,
+      "connection": [
+        "f2_j114"
+      ],
+      "slug": "",
+      "objectName": "",
+      "label": "",
+      "categoryId": "",
+      "wings": "",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "id": "b522b730-7ed6-43b3-8e86-54edbd1e83ad",
+      "type": "room",
+      "floor": 2,
+      "cx": 819,
+      "cy": 436,
+      "connection": [
+        "f2_j83",
+        "172bcd71-045a-4a5a-b709-59732ac6c081"
+      ],
+      "slug": "lt2-mandarin-kitchen-rice",
+      "objectName": "Mandarin Kitchen Rice",
+      "label": "Fasilitas restoran kuliner Mandarin Kitchen Rice yang menyajikan berbagai hidangan khas untuk dinikmati oleh pengunjung, keluarga pasien, dan staf medis rumah sakit.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "restoran mandarin",
+        "tempat makan",
+        "kantin",
+        "cafe",
+        "food court",
+        "makan",
+        "minum"
+      ],
+      "keywords": [
+        "makan siang",
+        "sarapan",
+        "restoran rumah sakit",
+        "beli makan",
+        "nasi",
+        "chinese food",
+        "kuliner",
+        "lapar"
+      ]
+    },
+    {
+      "id": "e892566f-dcac-4f2d-832e-ba35c0e78127",
+      "type": "room",
+      "floor": 2,
+      "cx": 894,
+      "cy": 356,
+      "connection": [
+        "f2_j87"
+      ],
+      "slug": "lt2-toilet",
+      "objectName": "Toilet",
+      "label": "Fasilitas toilet umum dan area sanitasi higienis yang disediakan untuk pengunjung, pasien, maupun staf rumah sakit di Lantai 2.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "bersih bersih",
+        "kakus",
+        "urinoir",
+        "BAB",
+        "BAK"
+      ]
+    },
+    {
+      "id": "79f1ac74-9bbc-4d22-a26e-8fbb3dbe1497",
+      "type": "room",
+      "floor": 2,
+      "cx": 949,
+      "cy": 389,
+      "connection": [
+        "f2_j87"
+      ],
+      "slug": "lt2-stair",
+      "objectName": "Stair",
+      "label": "Fasilitas tangga sirkulasi standar yang berfungsi sebagai penghubung antar lantai bagi pejalan kaki, sekaligus jalur evakuasi utama saat terjadi keadaan darurat.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "tangga",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga manual",
+        "jalur evakuasi",
+        "akses darurat",
+        "naik turun lantai dengan kaki"
+      ]
+    },
+    {
+      "id": "48a978ce-03cd-41c8-a0cf-c58eeddfe88b",
+      "type": "room",
+      "floor": 2,
+      "cx": 830,
+      "cy": 352,
+      "connection": [
+        "f2_j86"
+      ],
+      "slug": "lt2-nobu-bank",
+      "objectName": "NOBU Bank",
+      "label": "Kantor cabang mikro dan fasilitas mesin ATM dari Bank NOBU, memberikan kemudahan bagi pasien dan pengunjung untuk melakukan transaksi perbankan dan tarik tunai.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "bank nobu",
+        "atm nobu",
+        "tarik tunai",
+        "perbankan",
+        "bank"
+      ],
+      "keywords": [
+        "tarik duit",
+        "setor tunai",
+        "atm center",
+        "mesin atm",
+        "cabang bank nobu",
+        "urus keuangan tagihan"
+      ]
+    },
+    {
+      "id": "2399243a-0068-4270-ba91-6f57aff333fd",
+      "type": "room",
+      "floor": 2,
+      "cx": 860,
+      "cy": 357,
+      "connection": [
+        "f2_j86"
+      ],
+      "slug": "lt2-dr-lounge",
+      "objectName": "Dr. Lounge",
+      "label": "Ruang lounge privat dan eksklusif yang diperuntukkan khusus bagi para dokter sebagai tempat beristirahat sejenak, makan, atau diskusi medis ringan di sela-sela jadwal jaga.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "ruang istirahat dokter",
+        "lounge dokter",
+        "doctor lounge",
+        "ruang dokter"
+      ],
+      "keywords": [
+        "ruang istirahat staf",
+        "dokter kumpul",
+        "break room dokter",
+        "ruang eksklusif dokter",
+        "rapat dokter"
+      ]
+    },
+    {
+      "id": "937ece52-fec6-4328-b010-7a59480989ef",
+      "type": "room",
+      "floor": 2,
+      "cx": 802,
+      "cy": 259,
+      "connection": [
+        "d5ceb265-62c2-438c-add8-0c5a4c43ad1d"
+      ],
+      "slug": "lt2-pharmacy-farmasi",
+      "objectName": "Pharmacy / Farmasi",
+      "label": "Fasilitas loket pelayanan farmasi klinis untuk penyerahan resep dokter, peracikan, edukasi penggunaan, dan pengambilan obat bagi pasien rawat jalan.",
+      "categoryId": "PHARMACY",
+      "wings": "",
+      "aliases": [
+        "apotek",
+        "farmasi",
+        "tebus resep",
+        "ambil obat",
+        "beli obat",
+        "apotik"
+      ],
+      "keywords": [
+        "resep dokter",
+        "apoteker",
+        "beli obat jalan",
+        "tebus resep poli",
+        "ruang obat",
+        "apotek rumah sakit"
+      ]
+    },
+    {
+      "id": "0e29b1cd-f02a-4f73-93bd-e1b28b421299",
+      "type": "room",
+      "floor": 2,
+      "cx": 922,
+      "cy": 80,
+      "connection": [
+        "f2_j34"
+      ],
+      "slug": "lt2-toilet-2",
+      "objectName": "Toilet",
+      "label": "Fasilitas toilet umum dan sanitasi tambahan untuk memecah kepadatan pengguna di Lantai 2, tersedia untuk pasien dan pengunjung umum.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "bersih bersih",
+        "kakus",
+        "urinoir",
+        "toilet ekstra"
+      ]
+    },
+    {
+      "id": "931bf1b9-5fb2-429c-853f-5a44e367b81a",
+      "type": "room",
+      "floor": 2,
+      "cx": 949,
+      "cy": 102,
+      "connection": [
+        "f2_j34"
+      ],
+      "slug": "lt2-stair-2",
+      "objectName": "Stair",
+      "label": "Fasilitas tangga sirkulasi alternatif yang melengkapi akses pejalan kaki antar lantai dan mendukung jalur evakuasi keselamatan gedung.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "tangga",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga manual",
+        "jalur evakuasi",
+        "akses darurat",
+        "naik turun lantai",
+        "tangga tambahan"
+      ]
+    },
+    {
+      "id": "60f6afc2-369a-4be3-81d7-77674d709474",
+      "type": "room",
+      "floor": 2,
+      "cx": 717,
+      "cy": 360,
+      "connection": [
+        "f2_j4"
+      ],
+      "slug": "lt2-shop-1",
+      "objectName": "Shop 1",
+      "label": "Toko ritel atau minimarket yang menyediakan ragam makanan ringan, minuman, dan barang-barang esensial praktis untuk pembesuk maupun pasien.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "toko 1",
+        "minimarket",
+        "warung",
+        "shop 1",
+        "beli barang"
+      ],
+      "keywords": [
+        "toko ritel",
+        "jajan",
+        "snack",
+        "cemilan",
+        "minuman ringan",
+        "perlengkapan besuk pasien",
+        "roti"
+      ]
+    },
+    {
+      "id": "a238bc0d-8c2c-4c67-a117-7e19474b380b",
+      "type": "room",
+      "floor": 2,
+      "cx": 661,
+      "cy": 356,
+      "connection": [
+        "f2_j4"
+      ],
+      "slug": "lt2-shop-2",
+      "objectName": "Shop 2",
+      "label": "Toko ritel komersial kedua yang menjual aneka kebutuhan sehari-hari, suvenir kecil, serta persediaan bagi keluarga pasien yang menginap.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "toko 2",
+        "minimarket",
+        "warung",
+        "shop 2",
+        "beli barang"
+      ],
+      "keywords": [
+        "toko ritel",
+        "minimart",
+        "jajan",
+        "minuman botol",
+        "tisu",
+        "kebutuhan sehari hari pasien"
+      ]
+    },
+    {
+      "id": "f2_v126",
+      "type": "room",
+      "floor": 2,
+      "cx": 631,
+      "cy": 303,
+      "connection": [
+        "f2_j53"
+      ],
+      "slug": "",
+      "objectName": "",
+      "label": "",
+      "categoryId": "",
+      "wings": "",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "id": "7e60623c-ddad-4c77-805e-91cc347143a0",
+      "type": "room",
+      "floor": 2,
+      "cx": 378,
+      "cy": 685,
+      "connection": [
+        "f2_j75"
+      ],
+      "slug": "lt2-mri-15t",
+      "objectName": "MRI 1.5T",
+      "label": "Ruang pemeriksaan radiologi yang dilengkapi mesin MRI 1.5 Tesla, ideal untuk pencitraan medis standar dan akurat pada area jaringan lunak, persendian, serta tulang belakang.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "mri 1.5t",
+        "scan mri",
+        "mri scan",
+        "periksa mri",
+        "radiologi mri"
+      ],
+      "keywords": [
+        "scan mri standar",
+        "radiologi tulang",
+        "pencitraan organ",
+        "magnetic resonance",
+        "sendi bengkak"
+      ]
+    },
+    {
+      "id": "5be77162-7da9-43af-9e1d-304310abe8df",
+      "type": "room",
+      "floor": 2,
+      "cx": 303,
+      "cy": 638,
+      "connection": [
+        "f2_j76"
+      ],
+      "slug": "lt2-ct-scan",
+      "objectName": "CT Scan",
+      "label": "Fasilitas diagnostik CT Scan (Computed Tomography) yang memancarkan sinar-X berlapis untuk membuat gambar 3D irisan tubuh bagian dalam, sangat krusial untuk trauma dan pendarahan.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ct scan",
+        "periksa ct",
+        "scan kepala",
+        "ct-scan"
+      ],
+      "keywords": [
+        "computed tomography",
+        "scan kepala",
+        "pendarahan otak",
+        "trauma",
+        "pencitraan 3D",
+        "radiologi cepat",
+        "scan organ"
+      ]
+    },
+    {
+      "id": "46eae22e-b0c8-45cf-83ab-c46b9a4af56c",
+      "type": "room",
+      "floor": 2,
+      "cx": 330,
+      "cy": 586,
+      "connection": [
+        "f2_j78",
+        "f2_j73"
+      ],
+      "slug": "lt2-fluoroscopy",
+      "objectName": "Fluoroscopy",
+      "label": "Ruang tindakan pencitraan medis Fluoroskopi yang menghasilkan video sinar-X real-time, sering dimanfaatkan untuk melihat fungsi organ dalam secara dinamis seperti saluran cerna.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "fluoroskopi",
+        "fluoroscopy",
+        "rontgen gerak",
+        "x-ray dinamis"
+      ],
+      "keywords": [
+        "rontgen video",
+        "cek saluran cerna",
+        "rontgen kontras",
+        "barium swallow",
+        "pencernaan",
+        "fluoroskopi"
+      ]
+    },
+    {
+      "id": "45a434c2-d4fa-4e0b-88a2-e60e6e5e534f",
+      "type": "room",
+      "floor": 2,
+      "cx": 335,
+      "cy": 558,
+      "connection": [
+        "f2_j78",
+        "f2_j73"
+      ],
+      "slug": "lt2-room-130",
+      "objectName": "room 130",
+      "label": "Ruangan 130, merupakan area fungsional yang dialokasikan khusus untuk kebutuhan manajerial, staf operasional, atau penyimpanan internal.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "ruang 130",
+        "kamar 130"
+      ],
+      "keywords": [
+        "ruangan 130",
+        "akses khusus",
+        "ruang staf operasional",
+        "gudang kecil"
+      ]
+    },
+    {
+      "id": "f15ad3ac-fb40-4caf-b9b3-ca630920e213",
+      "type": "room",
+      "floor": 2,
+      "cx": 333,
+      "cy": 530,
+      "connection": [
+        "f2_j79",
+        "f2_j72"
+      ],
+      "slug": "lt2-lvu",
+      "objectName": "LVU",
+      "label": "Laboratorium Vaskular (LVU) yang berfokus pada evaluasi non-invasif aliran darah, menangani kasus penyumbatan vena, varises, hingga kelainan pada sistem sirkulasi perifer.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "lvu",
+        "lab vaskular",
+        "vascular lab",
+        "poli vaskular"
+      ],
+      "keywords": [
+        "pembuluh darah",
+        "sirkulasi darah",
+        "varises",
+        "penyumbatan vena",
+        "cek aliran darah",
+        "doppler"
+      ]
+    },
+    {
+      "id": "ff3dc439-bac5-4da0-a46b-3aff1ee21c10",
+      "type": "room",
+      "floor": 2,
+      "cx": 333,
+      "cy": 501,
+      "connection": [
+        "f2_j79",
+        "f2_j72"
+      ],
+      "slug": "lt2-ultra-sound",
+      "objectName": "Ultra Sound",
+      "label": "Ruang pemeriksaan sonografi (USG) menggunakan gelombang suara frekuensi tinggi untuk menangkap gambar organ dalam tubuh tanpa radiasi sinar-X, seperti ginjal, liver, dan rahim.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ultrasound",
+        "usg",
+        "ultrasonografi",
+        "cek usg",
+        "cek kandungan"
+      ],
+      "keywords": [
+        "usg perut",
+        "usg abdomen",
+        "cek organ dalam",
+        "sonografi",
+        "gelombang suara",
+        "cek batu ginjal"
+      ]
+    },
+    {
+      "id": "acc336b9-f3bf-472a-98ba-95b29a3e64a8",
+      "type": "room",
+      "floor": 2,
+      "cx": 407,
+      "cy": 530,
+      "connection": [
+        "f2_j72"
+      ],
+      "slug": "lt2-resuss",
+      "objectName": "Resuss",
+      "label": "Area zona merah dalam Instalasi Gawat Darurat yang dikenal sebagai Ruang Resusitasi. Dilengkapi dengan alat pacu jantung dan monitor kritis untuk menyelamatkan pasien henti jantung.",
+      "categoryId": "EMERGENCY",
+      "wings": "",
+      "aliases": [
+        "resusitasi",
+        "resuss",
+        "gawat darurat",
+        "ruang resusitasi",
+        "darurat",
+        "cpr",
+        "resuscitation"
+      ],
+      "keywords": [
+        "henti jantung",
+        "cpr",
+        "pacu jantung",
+        "kondisi kritis darurat",
+        "ruang merah igd",
+        "nyawa terancam"
+      ]
+    },
+    {
+      "id": "e7b24b41-0b6d-4e46-a801-ddf81fabb07b",
+      "type": "room",
+      "floor": 2,
+      "cx": 431,
+      "cy": 614,
+      "connection": [
+        "f2_j74",
+        "c44b1514-f798-4240-8fa4-f08f258d3542",
+        "35643fd1-909f-443c-8f5b-5a3b3eda009f",
+        "f091fb97-2442-41de-9375-fbb48e3e21f1"
+      ],
+      "slug": "lt2-entry-accident-emergency",
+      "objectName": "Entry Accident & Emergency",
+      "label": "Pintu akses masuk prioritas utama yang dirancang bebas hambatan agar ambulans dan tim medis dapat segera memindahkan pasien darurat ke dalam area IGD.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "pintu igd",
+        "masuk ugd",
+        "pintu darurat",
+        "pintu emergency",
+        "akses igd"
+      ],
+      "keywords": [
+        "akses masuk ambulan",
+        "pintu masuk pasien gawat",
+        "jalan masuk igd",
+        "drop off emergency"
+      ]
+    },
+    {
+      "id": "c44b1514-f798-4240-8fa4-f08f258d3542",
+      "type": "room",
+      "floor": 2,
+      "cx": 546,
+      "cy": 614,
+      "connection": [
+        "e7b24b41-0b6d-4e46-a801-ddf81fabb07b",
+        "8183e470-acc9-4a4a-8dc3-732a57ccc624"
+      ],
+      "slug": "lt2-waiting-area-emergency",
+      "objectName": "Waiting Area Emergency",
+      "label": "Area ruang tunggu khusus di zona IGD yang disediakan untuk menampung keluarga dan pengantar pasien sementara tim medis melakukan stabilisasi atau tindakan darurat.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "ruang tunggu igd",
+        "tunggu ugd",
+        "ruang tunggu darurat",
+        "waiting room emergency"
+      ],
+      "keywords": [
+        "kursi tunggu igd",
+        "antre gawat darurat",
+        "keluarga pasien igd",
+        "nunggu pasien kritis ditangani"
+      ]
+    },
+    {
+      "id": "6d140087-5aea-4f3b-bec8-563084a9cedf",
+      "type": "room",
+      "floor": 2,
+      "cx": 344,
+      "cy": 453,
+      "connection": [
+        "f2_j89"
+      ],
+      "slug": "lt2-counter-radiology",
+      "objectName": "Counter Radiology",
+      "label": "Meja registrasi dan informasi pusat untuk unit Radiologi. Melayani penjadwalan pemindaian medis, pendaftaran pasien rontgen, serta penyerahan cetakan hasil radiologi.",
+      "categoryId": "ADMIN",
+      "wings": "",
+      "aliases": [
+        "konter radiologi",
+        "daftar radiologi",
+        "meja rontgen",
+        "pendaftaran radiologi",
+        "loket rontgen"
+      ],
+      "keywords": [
+        "daftar rontgen",
+        "loket usg",
+        "jadwal ct scan",
+        "ambil hasil rontgen",
+        "resepsionis radiologi"
+      ]
+    },
+    {
+      "id": "da8ecea8-0e8c-4bbb-83a8-3baa63494f1c",
+      "type": "room",
+      "floor": 2,
+      "cx": 402,
+      "cy": 363,
+      "connection": [
+        "04724a5b-0ab0-4d63-9220-89ddbd6d625c"
+      ],
+      "slug": "lt2-eeg-eye-clinic",
+      "objectName": "EEG Eye Clinic",
+      "label": "Klinik diagnostik terintegrasi untuk melakukan pemeriksaan Electroencephalography (EEG) guna mengevaluasi kelainan gelombang listrik otak yang berkaitan dengan sistem saraf mata.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "eeg",
+        "rekam otak mata",
+        "cek saraf mata",
+        "eeg mata",
+        "electroencephalography"
+      ],
+      "keywords": [
+        "rekam gelombang otak",
+        "saraf mata",
+        "kejang",
+        "epilepsi",
+        "tes eeg",
+        "neuro-oftalmologi",
+        "mata gerak"
+      ]
+    },
+    {
+      "id": "28b657a0-149c-4128-98b4-8af82aa65496",
+      "type": "room",
+      "floor": 2,
+      "cx": 421,
+      "cy": 388,
+      "connection": [
+        "04724a5b-0ab0-4d63-9220-89ddbd6d625c"
+      ],
+      "slug": "lt2-dietician-eye-clinic",
+      "objectName": "Dietician Eye Clinic",
+      "label": "Ruang konsultasi spesialis gizi (Dietician) yang mendampingi perawatan klinik mata, berfokus pada perencanaan nutrisi diet untuk mencegah atau mengelola penyakit mata.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ahli gizi",
+        "dietician",
+        "gizi mata",
+        "konsultasi gizi",
+        "ahli diet",
+        "nutrition clinic"
+      ],
+      "keywords": [
+        "diet diabetes mata",
+        "makanan sehat untuk mata",
+        "nutrisi mata",
+        "konsultasi makanan",
+        "ahli nutrisi",
+        "dokter gizi"
+      ]
+    },
+    {
+      "id": "a8f105ca-ea0a-40cc-8610-72402b80298f",
+      "type": "room",
+      "floor": 2,
+      "cx": 345,
+      "cy": 356,
+      "connection": [
+        "f2_j92"
+      ],
+      "slug": "lt2-nurse-station",
+      "objectName": "Nurse Station",
+      "label": "Pusat stasiun kerja atau meja kendali bagi tim keperawatan untuk memantau aktivitas poliklinik, mengurus berkas rekam medis, dan memberikan arahan kepada pasien.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "pos perawat",
+        "suster jaga",
+        "nurse station radiologi",
+        "tempat suster",
+        "pusat kontrol perawat"
+      ],
+      "keywords": [
+        "tanya perawat",
+        "panggil suster",
+        "pos jaga perawat",
+        "pusat informasi pasien radiologi",
+        "perawat poli"
+      ]
+    },
+    {
+      "id": "6d50f300-5dbd-413f-8120-255a1a9e1dfa",
+      "type": "room",
+      "floor": 2,
+      "cx": 657,
+      "cy": 41,
+      "connection": [
+        "f2_j15"
+      ],
+      "slug": "lt2-stair-3",
+      "objectName": "Stair",
+      "label": "Fasilitas tangga sirkulasi vertikal tambahan yang berada di sayap lain untuk mengakomodasi alur lalu lintas pejalan kaki di Lantai 2.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "tangga",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga manual",
+        "jalur evakuasi",
+        "akses darurat",
+        "naik turun lantai",
+        "rute tangga tiga"
+      ]
+    },
+    {
+      "id": "e96936e9-28e1-49e4-bb4d-0ee6b395779b",
+      "type": "room",
+      "floor": 2,
+      "cx": 622,
+      "cy": 74,
+      "connection": [
+        "f2_j15"
+      ],
+      "slug": "lt2-toilet-3",
+      "objectName": "Toilet",
+      "label": "Area sanitasi dan fasilitas kamar mandi ketiga di Lantai 2 yang disediakan untuk kenyamanan pengunjung dan pasien.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "bersih bersih",
+        "kakus",
+        "urinoir",
+        "toilet tiga"
+      ]
+    },
+    {
+      "id": "9564dabf-a5f3-45d7-bb3f-ada0640dc316",
+      "type": "room",
+      "floor": 2,
+      "cx": 833,
+      "cy": 161,
+      "connection": [
+        "f2_j37"
+      ],
+      "slug": "lt2-optic-2",
+      "objectName": "Optic 2",
+      "label": "Gerai optik (Cabang 2) yang melayani konsultasi refraksi mata dasar, penjualan kacamata, bingkai (frame) modis, serta produk lensa kontak.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "optik 2",
+        "toko kacamata 2",
+        "beli kacamata",
+        "periksa mata optik"
+      ],
+      "keywords": [
+        "beli kacamata",
+        "lensa kontak",
+        "frame kacamata",
+        "periksa minus",
+        "cek silinder mata",
+        "toko softlens"
+      ]
+    },
+    {
+      "id": "8d271d86-9cfe-4306-b492-9899263fc82d",
+      "type": "room",
+      "floor": 2,
+      "cx": 831,
+      "cy": 60,
+      "connection": [
+        "f2_j31"
+      ],
+      "slug": "lt2-ruang-konsultasi-umum",
+      "objectName": "Ruang konsultasi umum",
+      "label": "Ruang poliklinik umum sebagai garda terdepan untuk anamnesa, pemeriksaan fisik awal, pengobatan keluhan umum, dan penerbitan rujukan ke dokter spesialis apabila diperlukan.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli umum",
+        "dokter umum",
+        "general clinic",
+        "periksa dokter",
+        "klinik bpjs"
+      ],
+      "keywords": [
+        "sakit flu",
+        "demam",
+        "pusing",
+        "batuk",
+        "periksa awal",
+        "cek kesehatan dasar",
+        "dokter umum",
+        "klinik skrining"
+      ]
+    },
+    {
+      "id": "5c97497a-dfc7-43da-a3e7-067145eff412",
+      "type": "room",
+      "floor": 2,
+      "cx": 831,
+      "cy": 131,
+      "connection": [
+        "f2_j31"
+      ],
+      "slug": "lt2-optic-1",
+      "objectName": "Optic 1",
+      "label": "Gerai ritel optik utama di dalam area rumah sakit untuk penebusan resep kacamata dari poli mata, penyetelan bingkai, dan layanan kacamata komprehensif.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "optik 1",
+        "toko kacamata 1",
+        "beli kacamata",
+        "periksa mata optik"
+      ],
+      "keywords": [
+        "beli kacamata",
+        "resep kacamata dokter",
+        "frame kacamata",
+        "periksa rabun",
+        "optik utama"
+      ]
+    },
+    {
+      "id": "96460dc3-0c6c-41cd-8a03-74d468e50071",
+      "type": "room",
+      "floor": 2,
+      "cx": 893,
+      "cy": 323,
+      "connection": [
+        "f2_j47"
+      ],
+      "slug": "lt2-toilet-4-2",
+      "objectName": "Toilet",
+      "label": "Fasilitas toilet umum dan sanitasi darurat tambahan yang ditempatkan secara strategis untuk mengurai antrean dan melayani kebersihan publik.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "bersih bersih",
+        "kakus",
+        "urinoir"
+      ]
+    },
+    {
+      "id": "e0e83291-b6f6-42f7-a790-d0dd40033ec0",
+      "type": "room",
+      "floor": 2,
+      "cx": 924,
+      "cy": 328,
+      "connection": [
+        "f2_j47"
+      ],
+      "slug": "lt2-ruang-menyusui",
+      "objectName": "Ruang Menyusui",
+      "label": "Fasilitas laktasi yang tenang, higienis, dan menjaga privasi. Didedikasikan khusus untuk ibu yang sedang menyusui bayi secara langsung atau perlu memompa ASI.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "ruang menyusui",
+        "laktasi",
+        "nursery room",
+        "ibu menyusui",
+        "asi",
+        "pumping",
+        "ruang bayi"
+      ],
+      "keywords": [
+        "tempat ganti popok",
+        "laktasi",
+        "asi eksklusif",
+        "ibu dan anak",
+        "pompa asi",
+        "nursing room",
+        "privacy ibu"
+      ]
+    },
+    {
+      "id": "8183e470-acc9-4a4a-8dc3-732a57ccc624",
+      "type": "room",
+      "floor": 2,
+      "cx": 544,
+      "cy": 591,
+      "connection": [
+        "f2_j101",
+        "f2_j64",
+        "c44b1514-f798-4240-8fa4-f08f258d3542"
+      ],
+      "slug": "lt2-waiting-area-emergency-2",
+      "objectName": "Waiting Area Emergency",
+      "label": "Area perluasan atau ekstensi ruang tunggu untuk mengantisipasi kepadatan keluarga pasien yang menanti di area Instalasi Gawat Darurat.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "tunggu igd",
+        "tunggu ugd",
+        "tunggu emergency",
+        "ruang tunggu igd 2"
+      ],
+      "keywords": [
+        "kursi tunggu igd tambahan",
+        "antre darurat",
+        "keluarga pasien igd",
+        "ruang tunggu eksternal igd"
+      ]
+    },
+    {
+      "id": "172bcd71-045a-4a5a-b709-59732ac6c081",
+      "type": "room",
+      "floor": 2,
+      "cx": 896,
+      "cy": 437,
+      "connection": [
+        "b522b730-7ed6-43b3-8e86-54edbd1e83ad",
+        "f2_j87"
+      ],
+      "slug": "lt2-kitchen-servery",
+      "objectName": "Kitchen & Servery",
+      "label": "Area dapur pusat dan pramusaji (Kitchen & Servery) untuk persiapan, memasak higienis, serta proses penataan makanan bergizi sebelum didistribusikan ke kamar pasien.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "dapur",
+        "kitchen",
+        "servery",
+        "ruang masak",
+        "gizi dapur"
+      ],
+      "keywords": [
+        "ruang katering",
+        "distribusi makanan pasien",
+        "dapur rumah sakit",
+        "masak gizi makanan",
+        "troli makan pasien"
+      ]
+    },
+    {
+      "id": "f091fb97-2442-41de-9375-fbb48e3e21f1",
+      "type": "room",
+      "floor": 2,
+      "cx": 457,
+      "cy": 641,
+      "connection": [
+        "e7b24b41-0b6d-4e46-a801-ddf81fabb07b"
+      ],
+      "slug": "lt2-room-151",
+      "objectName": "room 151",
+      "label": "Ruangan bernomor 151 yang digunakan untuk mendukung kegiatan back-office, layanan inventaris, atau fungsi operasional staf internal.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "ruang 151",
+        "kamar 151"
+      ],
+      "keywords": [
+        "ruang 151",
+        "staf operasional",
+        "administrasi arsip"
+      ]
+    },
+    {
+      "id": "b39e829c-f110-40e5-a9f6-39f0a1a3d29c",
+      "type": "room",
+      "floor": 2,
+      "cx": 727,
+      "cy": 439,
+      "connection": [
+        "f2_j83",
+        "f2_j3",
+        "f2_j2"
+      ],
+      "slug": "lt2-lounge",
+      "objectName": "Lounge",
+      "label": "Fasilitas lounge premium eksklusif yang dilengkapi sofa duduk nyaman, ditujukan agar pengunjung dan keluarga eksekutif dapat beristirahat dengan tenang.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "lounge",
+        "ruang tunggu nyaman",
+        "sofa",
+        "tempat duduk",
+        "lobi santai"
+      ],
+      "keywords": [
+        "tempat duduk vip",
+        "nunggu eksekutif",
+        "sofa tunggu nyaman",
+        "ruang santai",
+        "lobi premium",
+        "charger hp"
+      ]
+    },
+    {
+      "id": "edca7fd5-8030-40e1-8e54-f387c9b9c38d",
+      "type": "room",
+      "floor": 2,
+      "cx": 403,
+      "cy": 504,
+      "connection": [
+        "f2_j71"
+      ],
+      "slug": "lt2-mammography",
+      "objectName": "Mammography",
+      "label": "Fasilitas radiologi spesifik wanita untuk pemeriksaan Mamografi, memanfaatkan sinar-X berdosis rendah demi mendeteksi kista, tumor, atau indikasi awal kanker payudara.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "mamografi",
+        "mammography",
+        "rontgen payudara",
+        "periksa payudara",
+        "kanker payudara"
+      ],
+      "keywords": [
+        "screening kanker payudara",
+        "benjolan payudara",
+        "tumor payudara",
+        "rontgen payudara wanita",
+        "deteksi dini kanker"
+      ]
+    },
+    {
+      "id": "65867a53-cc4d-4b71-920b-2a1944919b08",
+      "type": "room",
+      "floor": 2,
+      "cx": 689,
+      "cy": 101,
+      "connection": [
+        "f2_j14"
+      ],
+      "slug": "lt2-kecantikan",
+      "objectName": "Kecantikan",
+      "label": "Klinik layanan estetika dan dermatologi komprehensif yang diawasi oleh dokter spesialis kulit. Melayani tindakan seperti laser, botox, peeling, dan penyembuhan masalah kulit.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "klinik kecantikan",
+        "dokter kulit",
+        "beauty clinic",
+        "estetika",
+        "perawatan wajah",
+        "skincare",
+        "poli kulit"
+      ],
+      "keywords": [
+        "perawatan wajah",
+        "jerawat",
+        "flek hitam",
+        "botox",
+        "laser wajah",
+        "peeling",
+        "dokter kulit dan kelamin",
+        "spkk"
+      ]
+    },
+    {
+      "id": "96460dc3-0c6c-41cd-8a03-74d468e50071_2",
+      "type": "room",
+      "floor": 2,
+      "cx": 271,
+      "cy": 333,
+      "connection": [
+        "f2_j93"
+      ],
+      "slug": "lt2-toilet-4-2",
+      "objectName": "Toilet",
+      "label": "Fasilitas toilet umum dan sanitasi darurat tambahan yang ditempatkan secara strategis untuk mengurai antrean dan melayani kebersihan publik.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "bersih bersih",
+        "kakus",
+        "urinoir"
+      ]
+    },
+    {
+      "id": "571ac8ed-06f6-41b6-adc5-d5eccf624ea0",
+      "type": "room",
+      "floor": 5,
+      "cx": 3158,
+      "cy": 926,
+      "connection": [
+        "f5_j234"
+      ],
+      "slug": "lt5-toilet",
+      "objectName": "Toilet",
+      "label": "Fasilitas sanitasi dan toilet umum yang higienis di Lantai 5, disediakan untuk kenyamanan pengunjung, pasien, dan staf rumah sakit.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "kakus",
+        "urinoir",
+        "bab",
+        "bak",
+        "kebersihan",
+        "fasilitas sanitasi"
+      ]
+    },
+    {
+      "id": "2df1cdc4-9a62-4c48-9a9d-3d75d9dba7bd",
+      "type": "room",
+      "floor": 5,
+      "cx": 3041,
+      "cy": 935,
+      "connection": [
+        "f5_j235"
+      ],
+      "slug": "lt5-store",
+      "objectName": "Store",
+      "label": "Ruang gudang (Store) di Lantai 5 yang digunakan untuk area penyimpanan logistik internal, persediaan alat kesehatan, dan perlengkapan operasional rumah sakit.",
+      "categoryId": "SERVICE",
+      "wings": "",
+      "aliases": [
+        "gudang",
+        "penyimpanan",
+        "store",
+        "storage room",
+        "ruang simpan"
+      ],
+      "keywords": [
+        "gudang logistik",
+        "tempat simpan barang",
+        "inventaris rumah sakit",
+        "stok alat medis",
+        "ruang penyimpanan internal",
+        "sarpras"
+      ]
+    },
+    {
+      "id": "369b79e5-d0cc-4ba4-b321-f9c729ba9c67",
+      "type": "room",
+      "floor": 5,
+      "cx": 3068,
+      "cy": 845,
+      "connection": [
+        "f5_j236"
+      ],
+      "slug": "lt5-sampling",
+      "objectName": "Sampling",
+      "label": "Ruang khusus untuk prosedur pengambilan sampel medis (Sampling) seperti darah, urine, atau cairan tubuh lainnya sebelum dianalisis lebih lanjut di laboratorium klinis.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ambil darah",
+        "tes darah",
+        "lab darah",
+        "sampling",
+        "tes urine",
+        "cek darah",
+        "blood test"
+      ],
+      "keywords": [
+        "ambil darah",
+        "cek gula darah",
+        "kolesterol",
+        "tes urine",
+        "puasa lab",
+        "swab",
+        "sampel medis",
+        "phlebotomy",
+        "cek fungsi ginjal"
+      ]
+    },
+    {
+      "id": "e31876cd-372e-4ff7-ad13-4ab0e24b5bda",
+      "type": "room",
+      "floor": 5,
+      "cx": 2955,
+      "cy": 684,
+      "connection": [
+        "f5_j240"
+      ],
+      "slug": "lt5-nurse-station-east",
+      "objectName": "Nurse Station East",
+      "label": "Pos jaga dan pusat kerja operasional keperawatan yang terletak di sayap timur (East Wing) Lantai 5 untuk memantau, merawat, dan melayani pasien di area tersebut.",
+      "categoryId": "CLINIC",
+      "wings": "East",
+      "aliases": [
+        "pos perawat",
+        "suster jaga",
+        "nurse station timur",
+        "tempat suster",
+        "perawat timur"
+      ],
+      "keywords": [
+        "pos perawat sayap timur",
+        "panggil suster",
+        "informasi pasien timur",
+        "stasiun perawat timur",
+        "bantuan medis",
+        "nurse call"
+      ]
+    },
+    {
+      "id": "094e79eb-d76c-4cee-8ac6-5183153efc10",
+      "type": "room",
+      "floor": 5,
+      "cx": 2387,
+      "cy": 771,
+      "connection": [
+        "f5_j252"
+      ],
+      "slug": "lt5-nurse-station-north",
+      "objectName": "Nurse Station North",
+      "label": "Pos jaga dan pusat kerja operasional keperawatan di sayap utara (North Wing) Lantai 5, difungsikan untuk melayani kebutuhan harian dan pemantauan kondisi pasien rawat inap.",
+      "categoryId": "CLINIC",
+      "wings": "North",
+      "aliases": [
+        "pos perawat",
+        "suster jaga",
+        "nurse station utara",
+        "tempat suster",
+        "perawat utara"
+      ],
+      "keywords": [
+        "pos perawat utara",
+        "panggil suster",
+        "informasi bangsal utara",
+        "stasiun perawat utara",
+        "administrasi bangsal"
+      ]
+    },
+    {
+      "id": "86c8f3a9-ee36-4505-a6d8-3149fd5865b4",
+      "type": "room",
+      "floor": 5,
+      "cx": 1952,
+      "cy": 965,
+      "connection": [
+        "f5_j264",
+        "4915b322-dedc-4b4f-bd5b-e9deee751794"
+      ],
+      "slug": "lt5-counter-pharmacy",
+      "objectName": "Counter Pharmacy",
+      "label": "Loket layanan khusus farmasi (Counter Pharmacy) di Lantai 5 untuk penyerahan obat jadi kepada pasien, lengkap dengan sesi pemberian edukasi dosis dan aturan pakai oleh apoteker.",
+      "categoryId": "PHARMACY",
+      "wings": "",
+      "aliases": [
+        "konter apotek",
+        "meja farmasi",
+        "penyerahan obat",
+        "ambil obat",
+        "counter pharmacy"
+      ],
+      "keywords": [
+        "loket penyerahan obat",
+        "ambil obat",
+        "tanya apoteker",
+        "loket obat",
+        "penjelasan dosis aturan pakai",
+        "farmasi rawat jalan"
+      ]
+    },
+    {
+      "id": "4915b322-dedc-4b4f-bd5b-e9deee751794",
+      "type": "room",
+      "floor": 5,
+      "cx": 1956,
+      "cy": 1057,
+      "connection": [
+        "86c8f3a9-ee36-4505-a6d8-3149fd5865b4"
+      ],
+      "slug": "lt5-registration-pharmacy",
+      "objectName": "Registration Pharmacy",
+      "label": "Loket pendaftaran di area farmasi Lantai 5, tempat pasien menyerahkan lembar resep dari dokter, memverifikasi jaminan asuransi, dan mengambil nomor antrean penebusan obat.",
+      "categoryId": "PHARMACY",
+      "wings": "",
+      "aliases": [
+        "daftar apotek",
+        "pendaftaran farmasi",
+        "antrean obat",
+        "serah resep",
+        "registration pharmacy"
+      ],
+      "keywords": [
+        "serah resep dokter",
+        "antre tebus obat",
+        "daftar farmasi",
+        "loket resep",
+        "verifikasi obat asuransi",
+        "masukin resep"
+      ]
+    },
+    {
+      "id": "32a222e3-59da-4b75-997a-67bb22716823",
+      "type": "room",
+      "floor": 5,
+      "cx": 2177,
+      "cy": 896,
+      "connection": [
+        "f5_j256"
+      ],
+      "slug": "lt5-pharmacy",
+      "objectName": "Pharmacy",
+      "label": "Fasilitas utama pelayanan farmasi klinis di Lantai 5 yang difungsikan untuk kegiatan manajemen sediaan, peracikan, penyediaan, dan pengelolaan obat-obatan untuk kebutuhan pasien.",
+      "categoryId": "PHARMACY",
+      "wings": "",
+      "aliases": [
+        "apotek",
+        "farmasi",
+        "beli obat",
+        "tebus obat",
+        "ambil obat",
+        "apotik",
+        "pharmacy"
+      ],
+      "keywords": [
+        "instalasi farmasi",
+        "apoteker",
+        "stok obat",
+        "racik obat",
+        "puyer",
+        "depo farmasi lantai 5",
+        "penyediaan obat"
+      ]
+    },
+    {
+      "id": "cfcf3edd-4d67-4f49-b864-db30a748f2a0",
+      "type": "room",
+      "floor": 5,
+      "cx": 1978,
+      "cy": 595,
+      "connection": [
+        "f5_j262"
+      ],
+      "slug": "lt5-stair-north",
+      "objectName": "Stair North",
+      "label": "Fasilitas tangga sirkulasi vertikal konvensional dan jalur utama evakuasi darurat yang terletak di sayap utara (North Wing) Lantai 5.",
+      "categoryId": "CIRCULATION",
+      "wings": "North",
+      "aliases": [
+        "tangga utara",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga sayap utara",
+        "jalur evakuasi utara",
+        "akses manual lantai",
+        "turun lantai 4",
+        "naik lantai 6"
+      ]
+    },
+    {
+      "id": "c105def4-ee76-4d47-9bbe-9d15ef489aab",
+      "type": "room",
+      "floor": 5,
+      "cx": 1625,
+      "cy": 588,
+      "connection": [
+        "f5_j277"
+      ],
+      "slug": "lt5-opd-8",
+      "objectName": "OPD 8",
+      "label": "Ruang konsultasi poliklinik rawat jalan (Outpatient Department) nomor 8 untuk pemeriksaan kesehatan berkala, evaluasi, dan konsultasi dengan dokter spesialis.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 8",
+        "dokter",
+        "rawat jalan 8",
+        "klinik 8",
+        "opd 8",
+        "outpatient 8"
+      ],
+      "keywords": [
+        "poliklinik 8",
+        "rawat jalan delapan",
+        "ruang periksa dokter spesialis",
+        "jadwal dokter poli 8",
+        "konsultasi medis"
+      ]
+    },
+    {
+      "id": "d1ca08ba-4166-4dc0-bcef-a12d65eeaf91",
+      "type": "room",
+      "floor": 5,
+      "cx": 1626,
+      "cy": 678,
+      "connection": [
+        "f5_j275"
+      ],
+      "slug": "lt5-opd-7",
+      "objectName": "OPD 7",
+      "label": "Ruang konsultasi poliklinik rawat jalan (Outpatient Department) nomor 7 untuk anamnesis, pemeriksaan kesehatan, dan konsultasi dokter.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 7",
+        "dokter",
+        "rawat jalan 7",
+        "klinik 7",
+        "opd 7",
+        "outpatient 7"
+      ],
+      "keywords": [
+        "poliklinik 7",
+        "rawat jalan tujuh",
+        "ruang periksa dokter spesialis",
+        "jadwal dokter poli 7",
+        "konsultasi medis"
+      ]
+    },
+    {
+      "id": "433fe52b-30b7-474e-becf-f273d5659ced",
+      "type": "room",
+      "floor": 5,
+      "cx": 1626,
+      "cy": 772,
+      "connection": [
+        "f5_j274"
+      ],
+      "slug": "lt5-pain-clinic-radiation-room",
+      "objectName": "Pain Clinic Radiation Room",
+      "label": "Klinik spesialis manajemen nyeri (Pain Clinic) terpadu yang dilengkapi dengan ruang tindakan terapi radiasi untuk mengelola, mengobati, dan meredakan nyeri akut maupun kronis pada pasien.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "klinik nyeri",
+        "radiasi",
+        "radioterapi",
+        "pain clinic",
+        "bebas nyeri",
+        "terapi nyeri"
+      ],
+      "keywords": [
+        "nyeri sendi",
+        "saraf kejepit",
+        "terapi radiasi",
+        "pereda sakit",
+        "nyeri kronis",
+        "punggung sakit",
+        "radioterapi",
+        "intervensi nyeri",
+        "blok saraf"
+      ]
+    },
+    {
+      "id": "f25676fb-eb80-488a-a521-abc3d9d89a17",
+      "type": "room",
+      "floor": 5,
+      "cx": 1489,
+      "cy": 796,
+      "connection": [
+        "f5_j272"
+      ],
+      "slug": "lt5-opd-6",
+      "objectName": "OPD 6",
+      "label": "Ruang poliklinik rawat jalan nomor 6 yang difungsikan untuk sesi tanya jawab, evaluasi rekam medis, dan pemeriksaan fisik oleh dokter spesialis.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 6",
+        "dokter",
+        "rawat jalan 6",
+        "klinik 6",
+        "opd 6",
+        "outpatient 6"
+      ],
+      "keywords": [
+        "poliklinik 6",
+        "rawat jalan enam",
+        "ruang periksa dokter spesialis",
+        "jadwal dokter poli 6"
+      ]
+    },
+    {
+      "id": "eb59f5db-ddc6-4ab6-9faa-0d83229d7393",
+      "type": "room",
+      "floor": 5,
+      "cx": 1452,
+      "cy": 797,
+      "connection": [
+        "f5_j272"
+      ],
+      "slug": "lt5-opd-5",
+      "objectName": "OPD 5",
+      "label": "Ruang konsultasi poliklinik rawat jalan nomor 5, memfasilitasi pertemuan medis, evaluasi pasien, dan pengobatan oleh dokter.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 5",
+        "dokter",
+        "rawat jalan 5",
+        "klinik 5",
+        "opd 5",
+        "outpatient 5"
+      ],
+      "keywords": [
+        "poliklinik 5",
+        "rawat jalan lima",
+        "ruang periksa dokter spesialis",
+        "jadwal dokter poli 5"
+      ]
+    },
+    {
+      "id": "122abdc3-a02d-422a-b1f0-295ee01713cb",
+      "type": "room",
+      "floor": 5,
+      "cx": 1421,
+      "cy": 888,
+      "connection": [
+        "f5_j272"
+      ],
+      "slug": "lt5-opd-4",
+      "objectName": "OPD 4",
+      "label": "Kamar konsultasi poliklinik rawat jalan nomor 4 untuk berbagai layanan penanganan kesehatan medis pasien rawat jalan.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 4",
+        "dokter",
+        "rawat jalan 4",
+        "klinik 4",
+        "opd 4",
+        "outpatient 4"
+      ],
+      "keywords": [
+        "poliklinik 4",
+        "rawat jalan empat",
+        "ruang periksa dokter spesialis",
+        "poli rawat jalan"
+      ]
+    },
+    {
+      "id": "daf47d2b-df62-498e-b01b-62db3416f725",
+      "type": "room",
+      "floor": 5,
+      "cx": 1424,
+      "cy": 929,
+      "connection": [
+        "f5_j272"
+      ],
+      "slug": "lt5-opd-3",
+      "objectName": "OPD 3",
+      "label": "Ruang poliklinik rawat jalan nomor 3 untuk konsultasi kesehatan primer atau spesialistik tanpa mengharuskan pasien menginap.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 3",
+        "dokter",
+        "rawat jalan 3",
+        "klinik 3",
+        "opd 3",
+        "outpatient 3"
+      ],
+      "keywords": [
+        "poliklinik 3",
+        "rawat jalan tiga",
+        "ruang periksa dokter",
+        "konsultasi berobat jalan"
+      ]
+    },
+    {
+      "id": "0031f234-81d0-4d29-a8d1-92cdba81be40",
+      "type": "room",
+      "floor": 5,
+      "cx": 1502,
+      "cy": 947,
+      "connection": [
+        "f5_j272"
+      ],
+      "slug": "lt5-opd-2",
+      "objectName": "OPD 2",
+      "label": "Ruang klinik (OPD) nomor 2 untuk memfasilitasi pemeriksaan medis komprehensif oleh dokter bagi pasien dengan keluhan ringan hingga sedang.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 2",
+        "dokter",
+        "rawat jalan 2",
+        "klinik 2",
+        "opd 2",
+        "outpatient 2"
+      ],
+      "keywords": [
+        "poliklinik 2",
+        "rawat jalan dua",
+        "ruang periksa spesialis",
+        "konsultasi medik jalan"
+      ]
+    },
+    {
+      "id": "a75d2dbe-0ee6-4913-93ba-0420391a6e43",
+      "type": "room",
+      "floor": 5,
+      "cx": 1540,
+      "cy": 980,
+      "connection": [
+        "f5_j271"
+      ],
+      "slug": "lt5-opd-1",
+      "objectName": "OPD 1",
+      "label": "Ruang konsultasi poliklinik rawat jalan nomor 1, melayani sesi berobat jalan, rujukan, dan penerbitan resep dokter.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "poli 1",
+        "dokter",
+        "rawat jalan 1",
+        "klinik 1",
+        "opd 1",
+        "outpatient 1"
+      ],
+      "keywords": [
+        "poliklinik 1",
+        "rawat jalan satu",
+        "ruang dokter depan",
+        "klinik spesialis utama"
+      ]
+    },
+    {
+      "id": "06f57fd1-1c0b-4b6a-8a0f-18456e9ab904",
+      "type": "room",
+      "floor": 5,
+      "cx": 1628,
+      "cy": 949,
+      "connection": [
+        "f5_j269"
+      ],
+      "slug": "lt5-nurse-station-west",
+      "objectName": "Nurse Station West",
+      "label": "Pos jaga dan stasiun kerja operasional tenaga perawat di sayap barat (West Wing) Lantai 5, difungsikan untuk memonitor kondisi klinis pasien secara intensif.",
+      "categoryId": "CLINIC",
+      "wings": "West",
+      "aliases": [
+        "pos perawat",
+        "suster jaga",
+        "nurse station barat",
+        "tempat suster",
+        "perawat barat"
+      ],
+      "keywords": [
+        "pos perawat barat",
+        "panggil suster sayap barat",
+        "pusat kontrol perawat",
+        "pantau bangsal"
+      ]
+    },
+    {
+      "id": "e1580472-57b1-4832-82df-ef04638c15d7",
+      "type": "room",
+      "floor": 5,
+      "cx": 1328,
+      "cy": 1421,
+      "connection": [
+        "524d3768-3936-4943-9994-fd7daa638012"
+      ],
+      "slug": "lt5-vip-lounge-dining",
+      "objectName": "VIP Lounge & Dining",
+      "label": "Area lounge eksklusif dan ruang makan (dining) yang menawarkan fasilitas kenyamanan premium serta privasi khusus bagi pasien VIP dan keluarga pendamping.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "ruang tunggu vip",
+        "makan vip",
+        "lounge vip",
+        "kantin vip",
+        "restoran vip",
+        "vip lounge"
+      ],
+      "keywords": [
+        "ruang tunggu premium",
+        "restoran vip",
+        "makan eksklusif",
+        "tempat santai vip",
+        "keluarga pasien vip",
+        "lounge mewah"
+      ]
+    },
+    {
+      "id": "5d850c37-dc55-48c9-a9fb-c6ec0e0ab2b9",
+      "type": "room",
+      "floor": 5,
+      "cx": 1330,
+      "cy": 1529,
+      "connection": [
+        "524d3768-3936-4943-9994-fd7daa638012"
+      ],
+      "slug": "lt5-dining-area",
+      "objectName": "Dining Area",
+      "label": "Kantin atau kafetaria umum yang luas di Lantai 5, menyajikan beragam menu makanan dan minuman higienis untuk pasien, keluarga pengunjung, dan staf.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "kantin",
+        "ruang makan",
+        "tempat makan",
+        "food court",
+        "restoran",
+        "cafe",
+        "dining area"
+      ],
+      "keywords": [
+        "makan siang",
+        "sarapan",
+        "beli makan",
+        "kantin rumah sakit",
+        "food court",
+        "kafetaria",
+        "lapar",
+        "haus",
+        "jajan",
+        "area makan"
+      ]
+    },
+    {
+      "id": "524d3768-3936-4943-9994-fd7daa638012",
+      "type": "room",
+      "floor": 5,
+      "cx": 1452,
+      "cy": 1625,
+      "connection": [
+        "f5_j339",
+        "e1580472-57b1-4832-82df-ef04638c15d7",
+        "5d850c37-dc55-48c9-a9fb-c6ec0e0ab2b9",
+        "f5_j340",
+        "f5_j348"
+      ],
+      "slug": "lt5-waiting-area",
+      "objectName": "Waiting Area",
+      "label": "Area tunggu umum di Lantai 5 dengan deretan tempat duduk yang nyaman bagi pasien dan pengantar untuk beristirahat selagi menanti panggilan antrean dokter atau nomor administrasi.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "ruang tunggu",
+        "tempat duduk",
+        "nunggu antrean",
+        "waiting room",
+        "kursi tunggu"
+      ],
+      "keywords": [
+        "kursi tunggu",
+        "nunggu dokter",
+        "antrean poli",
+        "tempat duduk publik",
+        "nunggu panggilan pendaftaran",
+        "ruang lobi poli"
+      ]
+    },
+    {
+      "id": "dc12f840-9613-4678-a5b9-7e6315adc7b0",
+      "type": "room",
+      "floor": 5,
+      "cx": 1624,
+      "cy": 1678,
+      "connection": [
+        "f5_j351"
+      ],
+      "slug": "lt5-toilet-2",
+      "objectName": "Toilet",
+      "label": "Fasilitas toilet dan area sanitasi kedua di Lantai 5 untuk mengakomodasi tingginya jumlah pengunjung dan pasien agar kebersihan tetap terjaga.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "kakus",
+        "urinoir",
+        "toilet koridor",
+        "wc umum"
+      ]
+    },
+    {
+      "id": "23739340-f014-48dd-a28a-3e518c08fada",
+      "type": "room",
+      "floor": 5,
+      "cx": 1142,
+      "cy": 1724,
+      "connection": [
+        "f5_j345"
+      ],
+      "slug": "lt5-consult-a",
+      "objectName": "Consult A",
+      "label": "Ruangan klinik A yang digunakan untuk anamnesis menyeluruh, pemeriksaan fisik, dan sesi diskusi langsung antara pasien dengan dokter yang bertugas.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ruang konsultasi A",
+        "poli A",
+        "periksa dokter A",
+        "consult A",
+        "kamar periksa A"
+      ],
+      "keywords": [
+        "ruang periksa a",
+        "poli a",
+        "konsultasi dokter a",
+        "tanya dokter",
+        "ruang medik a",
+        "jadwal periksa a"
+      ]
+    },
+    {
+      "id": "daf7fbd3-e46a-474e-a58f-14ba41dbad53",
+      "type": "room",
+      "floor": 5,
+      "cx": 1182,
+      "cy": 1725,
+      "connection": [
+        "f5_j344"
+      ],
+      "slug": "lt5-consult-b",
+      "objectName": "Consult B",
+      "label": "Ruangan pelayanan klinis B untuk diagnosis penyakit awal dan penetapan rencana perawatan pasien oleh dokter spesialis atau umum.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ruang konsultasi B",
+        "poli B",
+        "periksa dokter B",
+        "consult B",
+        "kamar periksa B"
+      ],
+      "keywords": [
+        "ruang periksa b",
+        "poli b",
+        "konsultasi dokter b",
+        "diskusi medik",
+        "evaluasi gejala b"
+      ]
+    },
+    {
+      "id": "3df92fbc-c217-44f9-ba40-cbc5674a176b",
+      "type": "room",
+      "floor": 5,
+      "cx": 1268,
+      "cy": 1721,
+      "connection": [
+        "f5_j342"
+      ],
+      "slug": "lt5-consult-c",
+      "objectName": "Consult C",
+      "label": "Ruang pelayanan medis C yang dirancang untuk menjaga privasi pasien saat berkonsultasi mengenai hasil laboratorium, gejala, atau rencana pengobatan.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ruang konsultasi C",
+        "poli C",
+        "periksa dokter C",
+        "consult C",
+        "kamar periksa C"
+      ],
+      "keywords": [
+        "ruang periksa c",
+        "poli c",
+        "tanya jawab dokter",
+        "evaluasi hasil lab poli c"
+      ]
+    },
+    {
+      "id": "105312a5-57fb-40c9-9215-5f6aa2af5d08",
+      "type": "room",
+      "floor": 5,
+      "cx": 1212,
+      "cy": 1782,
+      "connection": [
+        "f5_j343"
+      ],
+      "slug": "lt5-dentist",
+      "objectName": "Dentist",
+      "label": "Klinik spesialis kesehatan gigi dan mulut yang melayani pemeriksaan rutin, penambalan, pencabutan, pembersihan karang gigi (scaling), hingga estetika dan ortodonti.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "dokter gigi",
+        "poli gigi",
+        "cabut gigi",
+        "sakit gigi",
+        "dental",
+        "dentist",
+        "orthodontist"
+      ],
+      "keywords": [
+        "sakit gigi",
+        "cabut gigi bungsu",
+        "tambal gigi bolong",
+        "bersihkan karang gigi",
+        "scaling",
+        "kawat gigi",
+        "behel",
+        "spesialis ortodonti",
+        "poli gigi",
+        "pasang implan"
+      ]
+    },
+    {
+      "id": "c8ff31a7-c6b6-4466-86c6-555dbe529c33",
+      "type": "room",
+      "floor": 5,
+      "cx": 1047,
+      "cy": 1783,
+      "connection": [
+        "b7ccf473-9725-45b2-a0dd-7852f6d1f773",
+        "f5_j346"
+      ],
+      "slug": "lt5-eye",
+      "objectName": "Eye",
+      "label": "Klinik spesialis mata (Oftalmologi) untuk diagnostik penglihatan, pemeriksaan tajam penglihatan (visus), dan pengobatan kondisi mata seperti katarak, infeksi, atau glaukoma.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "dokter mata",
+        "poli mata",
+        "periksa mata",
+        "katarak",
+        "klinik mata",
+        "optik",
+        "eye clinic"
+      ],
+      "keywords": [
+        "mata minus",
+        "pandangan kabur",
+        "katarak",
+        "glaukoma",
+        "mata merah",
+        "cek visus",
+        "mata silinder",
+        "spesialis mata",
+        "oftalmologi",
+        "klinik rabun"
+      ]
+    },
+    {
+      "id": "b7ccf473-9725-45b2-a0dd-7852f6d1f773",
+      "type": "room",
+      "floor": 5,
+      "cx": 1006,
+      "cy": 1782,
+      "connection": [
+        "c8ff31a7-c6b6-4466-86c6-555dbe529c33",
+        "f5_j347"
+      ],
+      "slug": "lt5-pasmear-usg",
+      "objectName": "Pasmear - USG",
+      "label": "Ruang tindakan klinis yang dikhususkan bagi wanita untuk pengambilan sampel Pap Smear (deteksi dini kanker serviks) dan diagnostik Ultrasonografi (USG) rahim atau kehamilan.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "pap smear",
+        "usg",
+        "periksa kandungan",
+        "ibu hamil",
+        "ultrasonografi",
+        "papsmear",
+        "kandungan"
+      ],
+      "keywords": [
+        "kanker serviks",
+        "usg rahim",
+        "cek janin kehamilan",
+        "usg abdomen",
+        "kesehatan reproduksi wanita",
+        "skrining leher rahim",
+        "papsmear"
+      ]
+    },
+    {
+      "id": "9c14a7c2-d025-4b6d-86c5-8c5be38edee8",
+      "type": "room",
+      "floor": 5,
+      "cx": 1390,
+      "cy": 1775,
+      "connection": [
+        "f5_j340"
+      ],
+      "slug": "lt5-consult-d",
+      "objectName": "Consult D",
+      "label": "Kamar konsultasi D yang memfasilitasi pertemuan tatap muka antara dokter dan pasien untuk menentukan diagnosis awal dan pemberian resep obat.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "ruang konsultasi D",
+        "poli D",
+        "periksa dokter D",
+        "consult D",
+        "kamar periksa D"
+      ],
+      "keywords": [
+        "ruang periksa d",
+        "poli d",
+        "tanya jawab medis",
+        "ruangan dokter d",
+        "konsultasi rujukan"
+      ]
+    },
+    {
+      "id": "6b6e8db9-fa42-4d2f-8945-9017452bae21",
+      "type": "room",
+      "floor": 5,
+      "cx": 1424,
+      "cy": 1776,
+      "connection": [
+        "f5_j340"
+      ],
+      "slug": "lt5-lab",
+      "objectName": "Lab",
+      "label": "Fasilitas laboratorium klinis utama di Lantai 5 yang dilengkapi peralatan canggih untuk menganalisis sampel darah, urine, dan jaringan tubuh guna membantu penegakan diagnosis dokter secara presisi.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "laboratorium",
+        "cek lab",
+        "hasil lab",
+        "tes darah",
+        "tes kesehatan",
+        "laboratory",
+        "cek lab"
+      ],
+      "keywords": [
+        "laboratorium klinik",
+        "ambil hasil lab",
+        "periksa darah lengkap",
+        "mikrobiologi",
+        "uji sampel cairan",
+        "patologi klinik",
+        "diagnostik rs"
+      ]
+    },
+    {
+      "id": "1084bdea-e09f-47c4-86e1-9e241b7f752c",
+      "type": "room",
+      "floor": 5,
+      "cx": 1316,
+      "cy": 1895,
+      "connection": [
+        "f5_j325",
+        "f5_j324"
+      ],
+      "slug": "lt5-ipd-bed",
+      "objectName": "IPD Bed",
+      "label": "Kamar bangsal Inpatient Department (IPD) yang menyediakan fasilitas tempat tidur untuk perawatan inap jangka panjang, stabilisasi, serta observasi medis bagi pasien sakit.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "rawat inap",
+        "kamar pasien",
+        "bed pasien",
+        "ward",
+        "bangsal inap",
+        "opname",
+        "inpatient bed"
+      ],
+      "keywords": [
+        "inpatient department",
+        "rawat inap",
+        "ranjang pasien menginap",
+        "observasi medis",
+        "kamar pemulihan",
+        "admit rumah sakit",
+        "bed rest"
+      ]
+    },
+    {
+      "id": "1736fd01-c55a-4254-b4a9-13aa82117957",
+      "type": "room",
+      "floor": 5,
+      "cx": 1832,
+      "cy": 1838,
+      "connection": [
+        "f5_j317"
+      ],
+      "slug": "lt5-nurse-station-south",
+      "objectName": "Nurse Station South",
+      "label": "Pos jaga dan markas kerja perawat yang bertanggung jawab di sayap selatan (South Wing) Lantai 5, memastikan setiap pasien di area tersebut mendapatkan pelayanan maksimal.",
+      "categoryId": "CLINIC",
+      "wings": "South",
+      "aliases": [
+        "pos perawat",
+        "suster jaga",
+        "nurse station selatan",
+        "tempat suster",
+        "perawat selatan"
+      ],
+      "keywords": [
+        "pos perawat selatan",
+        "panggil suster sayap selatan",
+        "pusat kontrol perawat bangsal selatan"
+      ]
+    },
+    {
+      "id": "77adf57a-9776-443a-8054-fbb21e95a98f",
+      "type": "room",
+      "floor": 5,
+      "cx": 722,
+      "cy": 1858,
+      "connection": [
+        "f5_j332"
+      ],
+      "slug": "lt5-stair-south",
+      "objectName": "Stair South",
+      "label": "Fasilitas tangga sirkulasi standar sekaligus jalur evakuasi keselamatan yang berada di area sayap selatan (South Wing) Lantai 5.",
+      "categoryId": "CIRCULATION",
+      "wings": "South",
+      "aliases": [
+        "tangga selatan",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga sayap selatan",
+        "jalur evakuasi selatan",
+        "akses manual lantai lima"
+      ]
+    },
+    {
+      "id": "6a53c61b-12d1-457f-b196-0468db8c9c6d",
+      "type": "room",
+      "floor": 5,
+      "cx": 1980,
+      "cy": 1565,
+      "connection": [
+        "f5_j310",
+        "f5_j306",
+        "f5_j311"
+      ],
+      "slug": "lt5-main-lobby",
+      "objectName": "Main Lobby",
+      "label": "Area lobi utama (Main Lobby) dan titik orientasi pusat bagi pengunjung di Lantai 5, didesain lapang sebagai ruang tunggu utama sekaligus pusat informasi layanan.",
+      "categoryId": "PUBLIC",
+      "wings": "",
+      "aliases": [
+        "lobi utama",
+        "depan",
+        "pintu masuk utama",
+        "ruang tunggu utama",
+        "lobby",
+        "main lobby"
+      ],
+      "keywords": [
+        "ruang penerimaan tamu lantai 5",
+        "informasi sentral",
+        "lobi depan",
+        "area tunggu luas",
+        "pusat orientasi"
+      ]
+    },
+    {
+      "id": "59b07d83-6839-4446-bb0f-133177a70a61",
+      "type": "room",
+      "floor": 5,
+      "cx": 1860,
+      "cy": 1668,
+      "connection": [
+        "f5_j312"
+      ],
+      "slug": "lt5-toilet-3",
+      "objectName": "Toilet",
+      "label": "Fasilitas sanitasi dan kamar mandi umum (Toilet 3) di Lantai 5, terletak strategis untuk diakses mudah oleh pengunjung dan keluarga yang berada di area lobi atau ruang tunggu.",
+      "categoryId": "TOILET",
+      "wings": "",
+      "aliases": [
+        "toilet",
+        "wc",
+        "kamar mandi",
+        "buang air",
+        "cuci tangan",
+        "restroom",
+        "washroom",
+        "lavatory"
+      ],
+      "keywords": [
+        "kamar kecil",
+        "buang air kecil",
+        "wastafel",
+        "kakus",
+        "urinoir",
+        "toilet ruang tunggu",
+        "wc pengunjung"
+      ]
+    },
+    {
+      "id": "d0d902cd-41ce-4367-90e8-7bccb05fa41a",
+      "type": "room",
+      "floor": 5,
+      "cx": 3069,
+      "cy": 1366,
+      "connection": [
+        "f5_j304"
+      ],
+      "slug": "lt5-stair-east",
+      "objectName": "Stair East",
+      "label": "Fasilitas struktur tangga sirkulasi vertikal konvensional sebagai penghubung lantai dan jalur keluar darurat di sayap timur (East Wing) Lantai 5.",
+      "categoryId": "CIRCULATION",
+      "wings": "East",
+      "aliases": [
+        "tangga timur",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga sayap timur",
+        "jalur evakuasi timur",
+        "jalan turun manual",
+        "naik tangga timur"
+      ]
+    },
+    {
+      "id": "921a4b45-4688-4594-a8d7-a3c9d5cbbc08",
+      "type": "room",
+      "floor": 5,
+      "cx": 2546,
+      "cy": 1343,
+      "connection": [
+        "f5_j298",
+        "f5_j299"
+      ],
+      "slug": "lt5-bed-wards",
+      "objectName": "Bed Wards",
+      "label": "Area kompleks bangsal rawat inap (Bed Wards) berskala besar yang mengakomodasi berbagai tempat tidur pasien untuk perawatan, pemulihan, dan pengawasan klinis berkesinambungan.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "bangsal",
+        "kamar rawat inap",
+        "ruang pasien",
+        "kamar rumah sakit",
+        "wards",
+        "opname"
+      ],
+      "keywords": [
+        "kamar bangsal",
+        "kelas rawat inap",
+        "kamar bpjs",
+        "asuransi",
+        "ruang observasi",
+        "menginap rs",
+        "kamar rumah sakit"
+      ]
+    },
+    {
+      "id": "f5_j234",
+      "type": "junction",
+      "floor": 5,
+      "cx": 3104,
+      "cy": 905,
+      "connection": [
+        "f5_j235",
+        "571ac8ed-06f6-41b6-adc5-d5eccf624ea0"
+      ]
+    },
+    {
+      "id": "f5_j235",
+      "type": "junction",
+      "floor": 5,
+      "cx": 3025,
+      "cy": 904,
+      "connection": [
+        "f5_j234",
+        "f5_j236",
+        "2df1cdc4-9a62-4c48-9a9d-3d75d9dba7bd"
+      ]
+    },
+    {
+      "id": "f5_j236",
+      "type": "junction",
+      "floor": 5,
+      "cx": 3022,
+      "cy": 843,
+      "connection": [
+        "f5_j235",
+        "f5_j237",
+        "369b79e5-d0cc-4ba4-b321-f9c729ba9c67"
+      ]
+    },
+    {
+      "id": "f5_j237",
+      "type": "junction",
+      "floor": 5,
+      "cx": 3018,
+      "cy": 782,
+      "connection": [
+        "f5_j236",
+        "f5_j238"
+      ]
+    },
+    {
+      "id": "f5_j238",
+      "type": "junction",
+      "floor": 5,
+      "cx": 3015,
+      "cy": 720,
+      "connection": [
+        "f5_j237",
+        "f5_j239"
+      ]
+    },
+    {
+      "id": "f5_j239",
+      "type": "junction",
+      "floor": 5,
+      "cx": 3003,
+      "cy": 634,
+      "connection": [
+        "f5_j238",
+        "f5_j240"
+      ]
+    },
+    {
+      "id": "f5_j240",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2943,
+      "cy": 634,
+      "connection": [
+        "f5_j239",
+        "f5_j241",
+        "e31876cd-372e-4ff7-ad13-4ab0e24b5bda"
+      ]
+    },
+    {
+      "id": "f5_j241",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2883,
+      "cy": 634,
+      "connection": [
+        "f5_j240",
+        "f5_j242"
+      ]
+    },
+    {
+      "id": "f5_j242",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2823,
+      "cy": 634,
+      "connection": [
+        "f5_j241",
+        "f5_j243"
+      ]
+    },
+    {
+      "id": "f5_j243",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2762,
+      "cy": 634,
+      "connection": [
+        "f5_j242",
+        "f5_j244"
+      ]
+    },
+    {
+      "id": "f5_j244",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2702,
+      "cy": 635,
+      "connection": [
+        "f5_j243",
+        "f5_j245"
+      ]
+    },
+    {
+      "id": "f5_j245",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2642,
+      "cy": 635,
+      "connection": [
+        "f5_j244",
+        "f5_j246"
+      ]
+    },
+    {
+      "id": "f5_j246",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2582,
+      "cy": 635,
+      "connection": [
+        "f5_j245",
+        "f5_j247"
+      ]
+    },
+    {
+      "id": "f5_j247",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2522,
+      "cy": 635,
+      "connection": [
+        "f5_j246",
+        "f5_j248"
+      ]
+    },
+    {
+      "id": "f5_j248",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2522,
+      "cy": 699,
+      "connection": [
+        "f5_j247",
+        "f5_j249"
+      ]
+    },
+    {
+      "id": "f5_j249",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2523,
+      "cy": 762,
+      "connection": [
+        "f5_j248",
+        "f5_j250"
+      ]
+    },
+    {
+      "id": "f5_j250",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2523,
+      "cy": 826,
+      "connection": [
+        "f5_j249",
+        "f5_j251"
+      ]
+    },
+    {
+      "id": "f5_j251",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2461,
+      "cy": 826,
+      "connection": [
+        "f5_j250",
+        "f5_j252"
+      ]
+    },
+    {
+      "id": "f5_j252",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2399,
+      "cy": 827,
+      "connection": [
+        "f5_j251",
+        "f5_j253",
+        "094e79eb-d76c-4cee-8ac6-5183153efc10"
+      ]
+    },
+    {
+      "id": "f5_j253",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2336,
+      "cy": 827,
+      "connection": [
+        "f5_j252",
+        "f5_j254"
+      ]
+    },
+    {
+      "id": "f5_j254",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2274,
+      "cy": 827,
+      "connection": [
+        "f5_j253",
+        "f5_j255"
+      ]
+    },
+    {
+      "id": "f5_j255",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2212,
+      "cy": 827,
+      "connection": [
+        "f5_j254",
+        "f5_j256"
+      ]
+    },
+    {
+      "id": "f5_j256",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2150,
+      "cy": 828,
+      "connection": [
+        "f5_j255",
+        "f5_j257",
+        "32a222e3-59da-4b75-997a-67bb22716823"
+      ]
+    },
+    {
+      "id": "f5_j257",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2088,
+      "cy": 828,
+      "connection": [
+        "f5_j256",
+        "f5_j258"
+      ]
+    },
+    {
+      "id": "f5_j258",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2025,
+      "cy": 828,
+      "connection": [
+        "f5_j257",
+        "f5_j259",
+        "f5_j263"
+      ]
+    },
+    {
+      "id": "f5_j259",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2024,
+      "cy": 770,
+      "connection": [
+        "f5_j258",
+        "f5_j260"
+      ]
+    },
+    {
+      "id": "f5_j260",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2024,
+      "cy": 713,
+      "connection": [
+        "f5_j259",
+        "f5_j261"
+      ]
+    },
+    {
+      "id": "f5_j261",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2023,
+      "cy": 655,
+      "connection": [
+        "f5_j260",
+        "f5_j262"
+      ]
+    },
+    {
+      "id": "f5_j262",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2022,
+      "cy": 597,
+      "connection": [
+        "f5_j261",
+        "cfcf3edd-4d67-4f49-b864-db30a748f2a0"
+      ]
+    },
+    {
+      "id": "f5_j263",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1988,
+      "cy": 870,
+      "connection": [
+        "f5_j258",
+        "f5_j264"
+      ]
+    },
+    {
+      "id": "f5_j264",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1951,
+      "cy": 913,
+      "connection": [
+        "f5_j263",
+        "f5_j265",
+        "86c8f3a9-ee36-4505-a6d8-3149fd5865b4"
+      ]
+    },
+    {
+      "id": "f5_j265",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1897,
+      "cy": 915,
+      "connection": [
+        "f5_j264",
+        "f5_j266"
+      ]
+    },
+    {
+      "id": "f5_j266",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1843,
+      "cy": 916,
+      "connection": [
+        "f5_j265",
+        "f5_j267"
+      ]
+    },
+    {
+      "id": "f5_j267",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1789,
+      "cy": 918,
+      "connection": [
+        "f5_j266",
+        "f5_j268",
+        "f5_j278"
+      ]
+    },
+    {
+      "id": "f5_j268",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1721,
+      "cy": 915,
+      "connection": [
+        "f5_j267",
+        "f5_j269"
+      ]
+    },
+    {
+      "id": "f5_j269",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1653,
+      "cy": 912,
+      "connection": [
+        "f5_j268",
+        "f5_j270",
+        "06f57fd1-1c0b-4b6a-8a0f-18456e9ab904"
+      ]
+    },
+    {
+      "id": "f5_j270",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1584,
+      "cy": 909,
+      "connection": [
+        "f5_j269",
+        "f5_j271",
+        "f5_j273"
+      ]
+    },
+    {
+      "id": "f5_j271",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1541,
+      "cy": 893,
+      "connection": [
+        "f5_j270",
+        "f5_j272",
+        "a75d2dbe-0ee6-4913-93ba-0420391a6e43"
+      ]
+    },
+    {
+      "id": "f5_j272",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1497,
+      "cy": 878,
+      "connection": [
+        "f5_j271",
+        "0031f234-81d0-4d29-a8d1-92cdba81be40",
+        "daf47d2b-df62-498e-b01b-62db3416f725",
+        "122abdc3-a02d-422a-b1f0-295ee01713cb",
+        "eb59f5db-ddc6-4ab6-9faa-0d83229d7393",
+        "f25676fb-eb80-488a-a521-abc3d9d89a17"
+      ]
+    },
+    {
+      "id": "f5_j273",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1584,
+      "cy": 843,
+      "connection": [
+        "f5_j270",
+        "f5_j274"
+      ]
+    },
+    {
+      "id": "f5_j274",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1584,
+      "cy": 778,
+      "connection": [
+        "f5_j273",
+        "f5_j275",
+        "433fe52b-30b7-474e-becf-f273d5659ced"
+      ]
+    },
+    {
+      "id": "f5_j275",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1583,
+      "cy": 712,
+      "connection": [
+        "f5_j274",
+        "f5_j276",
+        "d1ca08ba-4166-4dc0-bcef-a12d65eeaf91"
+      ]
+    },
+    {
+      "id": "f5_j276",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1583,
+      "cy": 647,
+      "connection": [
+        "f5_j275",
+        "f5_j277"
+      ]
+    },
+    {
+      "id": "f5_j277",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1583,
+      "cy": 581,
+      "connection": [
+        "f5_j276",
+        "c105def4-ee76-4d47-9bbe-9d15ef489aab"
+      ]
+    },
+    {
+      "id": "f5_j278",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1790,
+      "cy": 977,
+      "connection": [
+        "f5_j267",
+        "f5_j279"
+      ]
+    },
+    {
+      "id": "f5_j279",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1790,
+      "cy": 1036,
+      "connection": [
+        "f5_j278",
+        "f5_j280"
+      ]
+    },
+    {
+      "id": "f5_j280",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1791,
+      "cy": 1095,
+      "connection": [
+        "f5_j279",
+        "f5_j281"
+      ]
+    },
+    {
+      "id": "f5_j281",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1792,
+      "cy": 1154,
+      "connection": [
+        "f5_j280",
+        "f5_j282"
+      ]
+    },
+    {
+      "id": "f5_j282",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1793,
+      "cy": 1213,
+      "connection": [
+        "f5_j281",
+        "f5_j283"
+      ]
+    },
+    {
+      "id": "f5_j283",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1793,
+      "cy": 1272,
+      "connection": [
+        "f5_j282",
+        "f5_j285",
+        "4ed6d327-1930-4dc1-b6f8-3bef758272ce"
+      ]
+    },
+    {
+      "id": "4ed6d327-1930-4dc1-b6f8-3bef758272ce",
+      "type": "room",
+      "floor": 5,
+      "cx": 1643,
+      "cy": 1279,
+      "connection": [
+        "f5_j283"
+      ],
+      "slug": "lt5-stair-west",
+      "objectName": "Stair West",
+      "label": "Fasilitas tangga akses perpindahan antar lantai secara manual dan rute evakuasi yang berlokasi di sayap barat (West Wing) Lantai 5.",
+      "categoryId": "CIRCULATION",
+      "wings": "West",
+      "aliases": [
+        "tangga barat",
+        "tangga darurat",
+        "stair",
+        "turun",
+        "naik",
+        "tangga"
+      ],
+      "keywords": [
+        "tangga sayap barat",
+        "jalur darurat barat",
+        "tangga sirkulasi pejalan kaki"
+      ]
+    },
+    {
+      "id": "f5_j285",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1793,
+      "cy": 1340,
+      "connection": [
+        "f5_j283",
+        "f5_j286",
+        "aee121b4-75ca-4000-ad56-6defe4237ad5"
+      ]
+    },
+    {
+      "id": "f5_j286",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1794,
+      "cy": 1380,
+      "connection": [
+        "f5_j285",
+        "f5_j287"
+      ]
+    },
+    {
+      "id": "f5_j287",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1795,
+      "cy": 1434,
+      "connection": [
+        "f5_j286",
+        "f5_j288"
+      ]
+    },
+    {
+      "id": "f5_j288",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1795,
+      "cy": 1488,
+      "connection": [
+        "f5_j287",
+        "f5_j289"
+      ]
+    },
+    {
+      "id": "f5_j289",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1796,
+      "cy": 1542,
+      "connection": [
+        "f5_j288",
+        "f5_j305",
+        "f5_j334"
+      ]
+    },
+    {
+      "id": "aee121b4-75ca-4000-ad56-6defe4237ad5",
+      "type": "room",
+      "floor": 5,
+      "cx": 1931,
+      "cy": 1354,
+      "connection": [
+        "f5_j285",
+        "f5_j292"
+      ],
+      "slug": "lt5-lift-lobby",
+      "objectName": "Lift Lobby",
+      "label": "Area lobi terbuka di depan deretan lift penumpang (Passenger Lift), difungsikan sebagai ruang tunggu sirkulasi utama untuk mobilitas vertikal pengunjung, staf, dan pasien.",
+      "categoryId": "CIRCULATION",
+      "wings": "",
+      "aliases": [
+        "lift",
+        "elevator",
+        "naik",
+        "turun",
+        "lobi lift",
+        "lift penumpang",
+        "tunggu lift"
+      ],
+      "keywords": [
+        "tunggu lift penumpang",
+        "lobi elevator",
+        "naik lift ke lantai atas",
+        "turun lantai dasar",
+        "sirkulasi vertikal utama"
+      ]
+    },
+    {
+      "id": "f5_j292",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2077,
+      "cy": 1349,
+      "connection": [
+        "f5_j293",
+        "aee121b4-75ca-4000-ad56-6defe4237ad5"
+      ]
+    },
+    {
+      "id": "f5_j293",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2136,
+      "cy": 1349,
+      "connection": [
+        "f5_j292",
+        "f5_j294",
+        "f5_j307",
+        "bc1b3957-c7f0-414a-9afa-6e161083c28c"
+      ]
+    },
+    {
+      "id": "f5_j294",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2195,
+      "cy": 1349,
+      "connection": [
+        "f5_j293",
+        "f5_j295"
+      ]
+    },
+    {
+      "id": "f5_j295",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2254,
+      "cy": 1349,
+      "connection": [
+        "f5_j294",
+        "f5_j296"
+      ]
+    },
+    {
+      "id": "f5_j296",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2313,
+      "cy": 1349,
+      "connection": [
+        "f5_j295",
+        "f5_j297"
+      ]
+    },
+    {
+      "id": "f5_j297",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2372,
+      "cy": 1349,
+      "connection": [
+        "f5_j296",
+        "f5_j298"
+      ]
+    },
+    {
+      "id": "f5_j298",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2431,
+      "cy": 1350,
+      "connection": [
+        "f5_j297",
+        "921a4b45-4688-4594-a8d7-a3c9d5cbbc08"
+      ]
+    },
+    {
+      "id": "f5_j299",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2689,
+      "cy": 1344,
+      "connection": [
+        "f5_j300",
+        "921a4b45-4688-4594-a8d7-a3c9d5cbbc08"
+      ]
+    },
+    {
+      "id": "f5_j300",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2745,
+      "cy": 1343,
+      "connection": [
+        "f5_j299",
+        "f5_j301"
+      ]
+    },
+    {
+      "id": "f5_j301",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2802,
+      "cy": 1342,
+      "connection": [
+        "f5_j300",
+        "f5_j302"
+      ]
+    },
+    {
+      "id": "f5_j302",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2859,
+      "cy": 1341,
+      "connection": [
+        "f5_j301",
+        "f5_j303"
+      ]
+    },
+    {
+      "id": "f5_j303",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2915,
+      "cy": 1340,
+      "connection": [
+        "f5_j302",
+        "f5_j304"
+      ]
+    },
+    {
+      "id": "f5_j304",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2972,
+      "cy": 1339,
+      "connection": [
+        "f5_j303",
+        "d0d902cd-41ce-4367-90e8-7bccb05fa41a"
+      ]
+    },
+    {
+      "id": "f5_j305",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1844,
+      "cy": 1542,
+      "connection": [
+        "f5_j289",
+        "f5_j306"
+      ]
+    },
+    {
+      "id": "f5_j306",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1892,
+      "cy": 1543,
+      "connection": [
+        "f5_j305",
+        "6a53c61b-12d1-457f-b196-0468db8c9c6d",
+        "f5_j311"
+      ]
+    },
+    {
+      "id": "f5_j307",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2130,
+      "cy": 1408,
+      "connection": [
+        "f5_j293",
+        "f5_j308"
+      ]
+    },
+    {
+      "id": "f5_j308",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2123,
+      "cy": 1467,
+      "connection": [
+        "f5_j307",
+        "f5_j309"
+      ]
+    },
+    {
+      "id": "f5_j309",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2117,
+      "cy": 1526,
+      "connection": [
+        "f5_j308",
+        "f5_j310"
+      ]
+    },
+    {
+      "id": "f5_j310",
+      "type": "junction",
+      "floor": 5,
+      "cx": 2050,
+      "cy": 1528,
+      "connection": [
+        "f5_j309",
+        "6a53c61b-12d1-457f-b196-0468db8c9c6d"
+      ]
+    },
+    {
+      "id": "f5_j311",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1913,
+      "cy": 1610,
+      "connection": [
+        "f5_j312",
+        "6a53c61b-12d1-457f-b196-0468db8c9c6d",
+        "f5_j306"
+      ]
+    },
+    {
+      "id": "f5_j312",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1913,
+      "cy": 1666,
+      "connection": [
+        "f5_j311",
+        "f5_j313",
+        "59b07d83-6839-4446-bb0f-133177a70a61"
+      ]
+    },
+    {
+      "id": "f5_j313",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1912,
+      "cy": 1722,
+      "connection": [
+        "f5_j312",
+        "f5_j314"
+      ]
+    },
+    {
+      "id": "f5_j314",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1912,
+      "cy": 1778,
+      "connection": [
+        "f5_j313",
+        "f5_j315"
+      ]
+    },
+    {
+      "id": "f5_j315",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1912,
+      "cy": 1834,
+      "connection": [
+        "f5_j314",
+        "f5_j316"
+      ]
+    },
+    {
+      "id": "f5_j316",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1912,
+      "cy": 1890,
+      "connection": [
+        "f5_j315",
+        "f5_j317"
+      ]
+    },
+    {
+      "id": "f5_j317",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1852,
+      "cy": 1891,
+      "connection": [
+        "f5_j316",
+        "f5_j318",
+        "1736fd01-c55a-4254-b4a9-13aa82117957"
+      ]
+    },
+    {
+      "id": "f5_j318",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1792,
+      "cy": 1892,
+      "connection": [
+        "f5_j317",
+        "f5_j319"
+      ]
+    },
+    {
+      "id": "f5_j319",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1731,
+      "cy": 1893,
+      "connection": [
+        "f5_j318",
+        "f5_j320"
+      ]
+    },
+    {
+      "id": "f5_j320",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1671,
+      "cy": 1894,
+      "connection": [
+        "f5_j319",
+        "f5_j321"
+      ]
+    },
+    {
+      "id": "f5_j321",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1611,
+      "cy": 1895,
+      "connection": [
+        "f5_j320",
+        "f5_j322"
+      ]
+    },
+    {
+      "id": "f5_j322",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1551,
+      "cy": 1895,
+      "connection": [
+        "f5_j321",
+        "f5_j323"
+      ]
+    },
+    {
+      "id": "f5_j323",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1491,
+      "cy": 1896,
+      "connection": [
+        "f5_j322",
+        "f5_j324"
+      ]
+    },
+    {
+      "id": "f5_j324",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1431,
+      "cy": 1897,
+      "connection": [
+        "f5_j323",
+        "1084bdea-e09f-47c4-86e1-9e241b7f752c"
+      ]
+    },
+    {
+      "id": "f5_j325",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1225,
+      "cy": 1906,
+      "connection": [
+        "f5_j326",
+        "1084bdea-e09f-47c4-86e1-9e241b7f752c"
+      ]
+    },
+    {
+      "id": "f5_j326",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1160,
+      "cy": 1906,
+      "connection": [
+        "f5_j325",
+        "f5_j327"
+      ]
+    },
+    {
+      "id": "f5_j327",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1096,
+      "cy": 1906,
+      "connection": [
+        "f5_j326",
+        "f5_j328"
+      ]
+    },
+    {
+      "id": "f5_j328",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1032,
+      "cy": 1906,
+      "connection": [
+        "f5_j327",
+        "f5_j329"
+      ]
+    },
+    {
+      "id": "f5_j329",
+      "type": "junction",
+      "floor": 5,
+      "cx": 968,
+      "cy": 1906,
+      "connection": [
+        "f5_j328",
+        "f5_j330"
+      ]
+    },
+    {
+      "id": "f5_j330",
+      "type": "junction",
+      "floor": 5,
+      "cx": 904,
+      "cy": 1906,
+      "connection": [
+        "f5_j329",
+        "f5_j331"
+      ]
+    },
+    {
+      "id": "f5_j331",
+      "type": "junction",
+      "floor": 5,
+      "cx": 840,
+      "cy": 1906,
+      "connection": [
+        "f5_j330",
+        "f5_j332"
+      ]
+    },
+    {
+      "id": "f5_j332",
+      "type": "junction",
+      "floor": 5,
+      "cx": 776,
+      "cy": 1906,
+      "connection": [
+        "f5_j331",
+        "77adf57a-9776-443a-8054-fbb21e95a98f"
+      ]
+    },
+    {
+      "id": "bc1b3957-c7f0-414a-9afa-6e161083c28c",
+      "type": "room",
+      "floor": 5,
+      "cx": 2145,
+      "cy": 1291,
+      "connection": [
+        "f5_j293"
+      ],
+      "slug": "lt5-nurse-center",
+      "objectName": "Nurse Center",
+      "label": "Pusat komando manajerial dan administrasi utama tenaga keperawatan (Nurse Center) di Lantai 5 untuk mengoordinasikan distribusi tugas, serah terima shift, serta memantau kualitas pelayanan rawat inap seluruh sayap.",
+      "categoryId": "CLINIC",
+      "wings": "",
+      "aliases": [
+        "pusat perawat",
+        "pos perawat utama",
+        "nurse center",
+        "suster",
+        "stasiun perawat"
+      ],
+      "keywords": [
+        "kepala perawat",
+        "komando suster utama",
+        "sentral informasi pasien",
+        "pusat administrasi perawat",
+        "jadwal keperawatan"
+      ]
+    },
+    {
+      "id": "f5_j334",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1749,
+      "cy": 1535,
+      "connection": [
+        "f5_j289",
+        "f5_j335"
+      ]
+    },
+    {
+      "id": "f5_j335",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1702,
+      "cy": 1527,
+      "connection": [
+        "f5_j334",
+        "f5_j336",
+        "165f89ad-1c7d-401e-a6cf-25ce05918256"
+      ]
+    },
+    {
+      "id": "f5_j336",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1701,
+      "cy": 1587,
+      "connection": [
+        "f5_j335",
+        "f5_j337"
+      ]
+    },
+    {
+      "id": "f5_j337",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1631,
+      "cy": 1588,
+      "connection": [
+        "f5_j336",
+        "f5_j338"
+      ]
+    },
+    {
+      "id": "f5_j338",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1562,
+      "cy": 1589,
+      "connection": [
+        "f5_j337",
+        "f5_j339"
+      ]
+    },
+    {
+      "id": "f5_j339",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1492,
+      "cy": 1590,
+      "connection": [
+        "f5_j338",
+        "524d3768-3936-4943-9994-fd7daa638012"
+      ]
+    },
+    {
+      "id": "f5_j340",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1443,
+      "cy": 1741,
+      "connection": [
+        "f5_j341",
+        "524d3768-3936-4943-9994-fd7daa638012",
+        "6b6e8db9-fa42-4d2f-8945-9017452bae21",
+        "9c14a7c2-d025-4b6d-86c5-8c5be38edee8"
+      ]
+    },
+    {
+      "id": "f5_j341",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1345,
+      "cy": 1759,
+      "connection": [
+        "f5_j340",
+        "f5_j342"
+      ]
+    },
+    {
+      "id": "f5_j342",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1287,
+      "cy": 1760,
+      "connection": [
+        "f5_j341",
+        "f5_j343",
+        "3df92fbc-c217-44f9-ba40-cbc5674a176b"
+      ]
+    },
+    {
+      "id": "f5_j343",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1229,
+      "cy": 1761,
+      "connection": [
+        "f5_j342",
+        "f5_j344",
+        "105312a5-57fb-40c9-9215-5f6aa2af5d08"
+      ]
+    },
+    {
+      "id": "f5_j344",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1171,
+      "cy": 1762,
+      "connection": [
+        "f5_j343",
+        "f5_j345",
+        "daf7fbd3-e46a-474e-a58f-14ba41dbad53"
+      ]
+    },
+    {
+      "id": "f5_j345",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1113,
+      "cy": 1763,
+      "connection": [
+        "f5_j344",
+        "f5_j346",
+        "23739340-f014-48dd-a28a-3e518c08fada"
+      ]
+    },
+    {
+      "id": "f5_j346",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1051,
+      "cy": 1759,
+      "connection": [
+        "f5_j345",
+        "f5_j347",
+        "c8ff31a7-c6b6-4466-86c6-555dbe529c33"
+      ]
+    },
+    {
+      "id": "f5_j347",
+      "type": "junction",
+      "floor": 5,
+      "cx": 989,
+      "cy": 1755,
+      "connection": [
+        "f5_j346",
+        "b7ccf473-9725-45b2-a0dd-7852f6d1f773"
+      ]
+    },
+    {
+      "id": "f5_j348",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1504,
+      "cy": 1650,
+      "connection": [
+        "f5_j351",
+        "524d3768-3936-4943-9994-fd7daa638012"
+      ]
+    },
+    {
+      "id": "f5_j351",
+      "type": "junction",
+      "floor": 5,
+      "cx": 1626,
+      "cy": 1649,
+      "connection": [
+        "f5_j348",
+        "dc12f840-9613-4678-a5b9-7e6315adc7b0"
+      ]
+    },
+    {
+      "id": "165f89ad-1c7d-401e-a6cf-25ce05918256",
+      "type": "room",
+      "floor": 5,
+      "cx": 1633,
+      "cy": 1508,
+      "connection": [
+        "f5_j335"
+      ],
+      "slug": "lt5-admission",
+      "objectName": "Admission",
+      "label": "Pusat loket layanan administrasi (Admission) untuk memproses registrasi awal pasien rawat jalan, prosedur administrasi masuk rawat inap, verifikasi penjaminan asuransi, serta pembaruan data rekam medis.",
+      "categoryId": "ADMIN",
+      "wings": "",
+      "aliases": [
+        "pendaftaran",
+        "registrasi",
+        "admission",
+        "rawat inap",
+        "daftar pasien",
+        "admit",
+        "register"
+      ],
+      "keywords": [
+        "daftar masuk rs",
+        "urus rawat inap",
+        "registrasi pasien",
+        "administrasi bpjs",
+        "asuransi kesehatan",
+        "front office",
+        "konter admission"
+      ]
+    }
+  ],
+  "updated_by": "system",
+  "updated_at": "2026-03-30T10:00:00Z"
+}
