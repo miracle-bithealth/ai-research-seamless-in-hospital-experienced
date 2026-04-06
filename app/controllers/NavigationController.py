@@ -383,7 +383,7 @@ class NavigationController:
                         )
                         await websocket.send_json(route_result.model_dump())
 
-                        dest_name = data.get("query", "tujuan")
+                        dest_name = route_data.get("end_name") or route_data.get("end") or data.get("query", "tujuan")
                         complete = WSRouteComplete(
                             destination=dest_name,
                             message=f"Anda telah sampai di {dest_name}.",

@@ -100,6 +100,7 @@ class NavigationAgent(BaseAgent):
             tool_calls_info = []
             route_data = None
             rendered_images = None
+            resolved_dest_name = None
             final_answer = None
 
             max_iterations = 8
@@ -144,7 +145,14 @@ class NavigationAgent(BaseAgent):
                                 "result_preview": tool_result_str[:300],
                             })
 
-                            if tool_name == "pathfinding":
+                            if tool_name == "ai_search_navigate":
+                                try:
+                                    parsed = json.loads(tool_result_str)
+                                    if parsed.get("found"):
+                                        resolved_dest_name = parsed.get("name", "")
+                                except json.JSONDecodeError:
+                                    pass
+                            elif tool_name == "pathfinding":
                                 try:
                                     parsed = json.loads(tool_result_str)
                                     if parsed.get("success"):
@@ -173,6 +181,9 @@ class NavigationAgent(BaseAgent):
 
             if not final_answer:
                 final_answer = raw_result.content if hasattr(raw_result, "content") else "Navigasi selesai."
+
+            if route_data and resolved_dest_name:
+                route_data["end_name"] = resolved_dest_name
 
             instructions = []
             if rendered_images and isinstance(rendered_images, list):
